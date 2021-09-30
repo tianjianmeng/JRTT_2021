@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.4" PIVersion="1.0.0.0" href="file:///D:\教学\软件项目实践\软件项目实践\文档模板\《任务书》模板.xsn" name="urn:schemas-microsoft-com:office:infopath:-kQV-Qo:" language="zh-cn" productVersion="14.0.0" ?><?mso-application progid="InfoPath.Document"?><任务书 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<首部 项目名称="今日头条" 项目标识="TT" version="1.0">
+		<状态与版本信息>
+			<文件状态></文件状态>
+			<文件标识></文件标识>
+			<当前版本></当前版本>
+			<作者>
+				<姓名>田见萌</姓名>
+				<学号>2018011317</学号>
+				<团队></团队>
+			</作者>
+			<完成日期></完成日期>
+			<版本更新信息></版本更新信息>
+		</状态与版本信息>
+		<引言>
+			<使用人员></使用人员>
+			<编写目的></编写目的>
+			<背景></背景>
+		</引言>
+	</首部>
+	<下达人>田见萌</下达人>
+	<下达时间>2021-09-25</下达时间>
+	<项目经理>田见萌</项目经理>
+	<项目计划提交期限>2021-10-07</项目计划提交期限>
+	<送达人>项目成员</送达人>
+	<项目目标>
+		<目标条目>开发今日头条APP，建立相关数据库</目标条目>
+	</项目目标>
+	<项目范围>
+		<项目性质>合同软件项目</项目性质>
+		<项目组成><div xmlns="http://www.w3.org/1999/xhtml">2.2.1 今日头条客户端：用户系统</div>
+<div xmlns="http://www.w3.org/1999/xhtml">       用户注册，登录，浏览APP，发布评论，收藏文章等操作</div>
+<div xmlns="http://www.w3.org/1999/xhtml">2.2.2 今日头条客户端：编辑系统</div>
+<div xmlns="http://www.w3.org/1999/xhtml">       允许咨询作者及管理人员在系统后台发布，管理咨询（增删改查）的系统</div>
+<div xmlns="http://www.w3.org/1999/xhtml">2.2.3  今日头条客户端：打赏/推广系统</div>
+<div xmlns="http://www.w3.org/1999/xhtml">       允许用户对喜欢的作者和文章打赏，充值；运行作者从后台提现，使用余额推广自己的文章</div></项目组成>
+		<项目要求><div xmlns="http://www.w3.org/1999/xhtml">2.3.1 时间要求</div>
+<div xmlns="http://www.w3.org/1999/xhtml">查询响应时间：小于2秒</div>
+<div xmlns="http://www.w3.org/1999/xhtml">更新处理时间：小于2秒</div></项目要求>
+		<项目范围特殊说明>项目相关任何代码和文档，属公司机密，不可外泄</项目范围特殊说明>
+	</项目范围>
+	<项目输入>
+		<输入条目>无</输入条目>
+	</项目输入>
+	<项目用户>普通用户，平台的管理人员，平台认证的作者/编辑</项目用户>
+	<与其他项目关系><div xmlns="http://www.w3.org/1999/xhtml">与打赏/推广系统相关数据库内容；</div>
+<div xmlns="http://www.w3.org/1999/xhtml">与咨询相关数据库内容；</div>
+<div xmlns="http://www.w3.org/1999/xhtml">与用户信息相关数据库内容</div></与其他项目关系>
+	<项目限制>
+		<完成时间>2021-11-15</完成时间>
+		<资金>十万元人民币</资金>
+		<资源><div xmlns="http://www.w3.org/1999/xhtml">人力资源：</div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml">
+<div>
+<table tabIndex="-1" class="msoUcTable" style="BORDER-TOP-STYLE: none; WORD-WRAP: break-word; BORDER-LEFT-STYLE: none; WIDTH: 386px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none" borderColor="#000000" border="1">
+<colgroup>
+<col style="WIDTH: 80px"/>
+<col style="WIDTH: 56px"/>
+<col style="WIDTH: 95px"/>
+<col style="WIDTH: 43px"/>
+<col style="WIDTH: 43px"/>
+<col style="WIDTH: 69px"/></colgroup>
+<tbody>
+<tr>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">人员</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">管理组</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">开发组</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">质保组</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">配置组</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">用户组</font></div></font></td></tr>
+<tr>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">田见萌</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">项目经理</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">（兼）</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">吴佳泽</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">（兼）</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">组长（设计师）</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">郑培森</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">（兼）</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">组长</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">（兼）</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">卢炜</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">（兼）</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">组长</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">王滋明</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">系统分析</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">张春雨</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">编程（后端）</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">吴佳泽</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">编程（后端）</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">黄晴</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">编程（前端）</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">曾纪斌</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">编程（前端）</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">李连航</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">文档撰写</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">李静雯</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">单元测试</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">崔敏双</font></div>
+<div valign="baseline"><font size="2" face="宋体">郑培森</font></div>
+<div valign="baseline"><font size="2" face="宋体">王滋明</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">测试</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">崔敏双</font></div>
+<div valign="baseline"><font size="2" face="宋体">郑培森</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">需求评审、</font></div>
+<div valign="baseline"><font size="2" face="宋体">验收测试</font></div></font></td></tr></tbody></table></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">每人配备固定工位，计算机一台，开发人员测试人员配备公用手机进行测试等工作。</div>
+<div xmlns="http://www.w3.org/1999/xhtml"><span style="FONT-SIZE: 10pt; BORDER-TOP: gainsboro 1pt solid; BORDER-RIGHT: gainsboro 1pt solid; BORDER-BOTTOM: gainsboro 1pt solid; BORDER-LEFT: gainsboro 1pt solid"><font face="宋体"><font style="BACKGROUND-COLOR: white"></font></font></span> </div>
+<div xmlns="http://www.w3.org/1999/xhtml">
+<div style="FONT-SIZE: 10.5pt; MARGIN-BOTTOM: 0.75pt; MARGIN-TOP: 0.75pt; PADDING-LEFT: 0.75pt; PADDING-RIGHT: 16.5pt" align="left"><span style="FONT-SIZE: 10pt; BORDER-TOP: gainsboro 1pt solid; BORDER-RIGHT: gainsboro 1pt solid; BORDER-BOTTOM: gainsboro 1pt solid; BORDER-LEFT: gainsboro 1pt solid"><font face="宋体"><font style="BACKGROUND-COLOR: white">财力资源：</font></font></span></div>
+<div style="FONT-SIZE: 10.5pt; MARGIN-BOTTOM: 0.75pt; MARGIN-TOP: 0.75pt; PADDING-LEFT: 0.75pt; PADDING-RIGHT: 16.5pt" align="left"><span style="FONT-SIZE: 10pt; BORDER-TOP: gainsboro 1pt solid; BORDER-RIGHT: gainsboro 1pt solid; BORDER-BOTTOM: gainsboro 1pt solid; BORDER-LEFT: gainsboro 1pt solid"></span> </div>
+<div style="FONT-SIZE: 10.5pt; MARGIN-BOTTOM: 0pt; MARGIN-TOP: 0.75pt; PADDING-LEFT: 0.75pt; PADDING-RIGHT: 16.5pt" align="left"><span style="FONT-SIZE: 10pt; BORDER-TOP: gainsboro 1pt solid; BORDER-RIGHT: gainsboro 1pt solid; BORDER-BOTTOM: gainsboro 1pt solid; BORDER-LEFT: gainsboro 1pt solid"><font style="BACKGROUND-COLOR: white" face="宋体">一、定额流动资产：十万元</font><br/><font style="BACKGROUND-COLOR: white" face="宋体">二、定额流动资产平均余额： 五万元</font><br/><font style="BACKGROUND-COLOR: white" face="宋体">三、固定资产（原值/净值）五十万元</font><br/><font style="BACKGROUND-COLOR: white" face="宋体">四、经营资金</font><br/><font style="BACKGROUND-COLOR: white" face="宋体"> 1.</font><font style="BACKGROUND-COLOR: white" face="宋体">固定资金： 五十万元</font><br/><font style="BACKGROUND-COLOR: white" face="宋体"> 2.</font><font style="BACKGROUND-COLOR: white" face="宋体">流动资金： 六十万元</font><br/><font style="BACKGROUND-COLOR: white" face="宋体"> 3.</font><font style="BACKGROUND-COLOR: white" face="宋体">用于周转的自有资金： 十万元</font><br/><font style="BACKGROUND-COLOR: white" face="宋体">五、货币资金： 十万元</font><br/><font style="BACKGROUND-COLOR: white" face="宋体">六、应收及预付款： 二十万元</font><br/><font style="BACKGROUND-COLOR: white" face="宋体">七、预收及预付款： 七十万元</font><br/><font style="BACKGROUND-COLOR: white" face="宋体">八、实际完成年产值： 一百万元</font><br/><font style="BACKGROUND-COLOR: white" face="宋体">九、实现利润总额： 五十万元</font><br/><font style="BACKGROUND-COLOR: white" face="宋体">十、反映企业管理水平指标</font><br/><font style="BACKGROUND-COLOR: white" face="宋体"> 1.</font><font style="BACKGROUND-COLOR: white" face="宋体">资金利用率：</font><font face="宋体"><font style="BACKGROUND-COLOR: white"> 70%<br/> 2.流动资金周转率： 3次</font></font><br/><font style="BACKGROUND-COLOR: white" face="宋体"> 3.</font><font face="宋体"><font style="BACKGROUND-COLOR: white">企业偿还能力：良好</font></font></span></div></div></资源>
+		<实现限制><div xmlns="http://www.w3.org/1999/xhtml">
+<div class="lake-content" typography="classic"><font size="2" face="宋体">
+<div><span class="ne-text">基于 Vue.js 的前端框架，</span><font size="2" face="宋体"><span class="ne-text"> Vant 的前端 UI 组件库，</span><span class="ne-text">axios 的请求库， </span><span class="ne-text">基于 DCloud 平台的移动 App 开发解决方案。</span></font></div>
+<div><font size="2" face="宋体"><span class="ne-text">后端采用spring boot架构进行开发，数据库使用mysql。</span></font></div>
+<div><font size="2" face="宋体"><span class="ne-text">开发平台： windows；vscode，IntelliJ IDEA </span></font></div></font></div></div></实现限制>
+	</项目限制>
+	<其他></其他>
+</任务书>
