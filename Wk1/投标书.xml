@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.11" PIVersion="1.0.0.0" href="file:///D:\教学\软件项目实践\软件项目实践\文档模板\《投标书》模板.xsn" name="urn:schemas-microsoft-com:office:infopath:-E7V-Qo:" language="zh-cn" productVersion="15.0.0" ?><?mso-application progid="InfoPath.Document"?><投标书 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<首部 项目名称="今日头条" 项目标识="" version="1.0">
+		<状态与版本信息>
+			<文件状态></文件状态>
+			<文件标识></文件标识>
+			<当前版本></当前版本>
+			<作者>
+				<姓名>李静雯</姓名>
+				<学号>2018011332</学号>
+				<团队></团队>
+			</作者>
+			<完成日期></完成日期>
+			<版本更新信息></版本更新信息>
+		</状态与版本信息>
+		<引言>
+			<使用人员></使用人员>
+			<编写目的></编写目的>
+			<背景></背景>
+		</引言>
+	</首部>
+	<文件编号>000001</文件编号>
+	<投标单位>
+		<单位>
+			<名称>（（（（（还没起</名称>
+			<签章></签章>
+		</单位>
+		<负责人>
+			<姓名>田见萌</姓名>
+			<职务>总经理</职务>
+			<签章></签章>
+		</负责人>
+		<联系方式>
+			<联系人>李静雯</联系人>
+			<电话>12345678910</电话>
+			<传真></传真>
+		</联系方式>
+	</投标单位>
+	<投标日期>2021-09-25</投标日期>
+	<承包方式><div xmlns="http://www.w3.org/1999/xhtml">    采用总包方式施工，并按主要工程项目的标价承包。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">    会款有效期为自递交报价文件截止之日起90个工作日。</div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></承包方式>
+	<投标工程标价>
+		<总标价><div xmlns="http://www.w3.org/1999/xhtml">标价包括总标价及单项工程标价，它综合了施工过程中的全部费用，是投标企业承包工程的经济条件。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">    所附报价明细表中规定的应提交和交付的货物报价总价为（人民币：伍拾万元整、人民币：500000元整）</div>
+<div xmlns="http://www.w3.org/1999/xhtml">    我方承诺，如果我方中标，保证按照招标方要求，采取有效的控制手段，使本工程的工期控制在90个工作日内，保修期一年。</div></总标价>
+		<单项标价></单项标价>
+	</投标工程标价>
+	<工程周期>
+		<开工>2021-09-24</开工>
+		<竣工>2021-12-24</竣工>
+		<总工期>90天</总工期>
+	</工程周期>
+	<工程质量><div xmlns="http://www.w3.org/1999/xhtml">本公司承诺，工程质量达标，完成招标人所需要的所有需求。并且，在项目开发过程中的人为造成的风险和潜在风险由本公司自行承担。</div></工程质量>
+	<反要约条件><div xmlns="http://www.w3.org/1999/xhtml">    采购人若需追加相关服务的，在不改变合同其他实质性条款的前提下，我方保证所提供的价格折扣水平、技术服务等方面的各种优惠条件不变。</div></反要约条件>
+	<招标单位意见><div xmlns="http://www.w3.org/1999/xhtml">    我们在贵公司组织的xxx项目中获得中标，我们保证在收到成交通知后的15个工作日内按询价通知书的规定，以电汇、现金中的一种，一次向贵公司交付成交服务费。</div></招标单位意见>
+	<公证部门意见>同意</公证部门意见>
+	<附件>
+		<分项报价明细表><div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 480px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 96px"/>
+<col style="WIDTH: 96px"/>
+<col style="WIDTH: 96px"/>
+<col style="WIDTH: 96px"/>
+<col style="WIDTH: 96px"/></colgroup>
+<tbody vAlign="top">
+<tr>
+<td>
+<div><font size="2" face="宋体">序号</font></div></td>
+<td>
+<div><font size="2" face="宋体">名称</font></div></td>
+<td>
+<div><font size="2" face="宋体">单价</font></div></td>
+<td>
+<div><font size="2" face="宋体">总计</font></div></td>
+<td>
+<div><font size="2" face="宋体">备注</font></div></td></tr>
+<tr>
+<td>
+<div><font size="2" face="宋体">1</font></div></td>
+<td>
+<div><font size="2" face="宋体">软件开发</font></div></td>
+<td>
+<div><font size="2" face="宋体">30万元</font></div></td>
+<td>
+<div><font size="2" face="宋体">30万元</font></div></td>
+<td>
+<div><font size="2" face="宋体"></font> </div></td></tr>
+<tr>
+<td style="BORDER-TOP-COLOR: ">
+<div><font size="2" face="宋体">2</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div><font size="2" face="宋体">硬件需求</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div><font size="2" face="宋体">10万</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div><font size="2" face="宋体">10万</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div><font size="2" face="宋体"></font> </div></td></tr>
+<tr>
+<td style="BORDER-TOP-COLOR: ">
+<div><font size="2" face="宋体">3</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div><font size="2" face="宋体">人员</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div><font size="2" face="宋体">10万</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div><font size="2" face="宋体">10万</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div><font size="2" face="宋体"></font> </div></td></tr>
+<tr>
+<td style="BORDER-TOP-COLOR: ">
+<div><font size="2" face="宋体">总计</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div><font size="2" face="宋体"></font> </div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div><font size="2" face="宋体"></font> </div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div><font size="2" face="宋体">50万元</font></div></td>
+<td style="BORDER-TOP-COLOR: ">
+<div><font size="2" face="宋体"></font> </div></td></tr></tbody></table></div></分项报价明细表>
+		<材料设备报价明细表></材料设备报价明细表>
+		<法定代表人授权书><div xmlns="http://www.w3.org/1999/xhtml">    信息科技大学xxx团队指派并授权xxx作为全权代表，负责xxx项目投标相关事宜。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">    本授权在我公司另行通知之前有效。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">联系电话:12345678910</div>
+<div xmlns="http://www.w3.org/1999/xhtml">被授权人签章:李静雯</div>
+<div xmlns="http://www.w3.org/1999/xhtml">被授权人手机:12345678910</div>
+<div xmlns="http://www.w3.org/1999/xhtml">被授权人e-mail: 12345678910@163.com</div></法定代表人授权书>
+		<资质证明文件><div xmlns="http://www.w3.org/1999/xhtml">计算机信息系统集成资质</div>
+<div xmlns="http://www.w3.org/1999/xhtml">质量服务信誉AAA证书</div>
+<div xmlns="http://www.w3.org/1999/xhtml">重合同守信用企业</div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></资质证明文件>
+		<保证金保函><div xmlns="http://www.w3.org/1999/xhtml">    鉴于投标人李静雯于2021年09月24日参加贵方采购编号为xxx的今日头条项目的投标，中国建设银行股份有限公司无条件地、不可撤销的履行保函。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">    本行承诺于收到收益人符合下列条件的索赔文件之日起7个工作日内，按收益人索赔文件中的金额和方式支付给受益人，但索赔通知书中单词索赔的金额的累计总额均不超过本保函的最大担保金额，本行在本保函项下的责任以最大担保金额为限，当受益人和申请人违反合同约定时，即可提交申请索赔文件。</div></保证金保函>
+		<投标人情况表><div xmlns="http://www.w3.org/1999/xhtml">投标人名称：李静雯</div>
+<div xmlns="http://www.w3.org/1999/xhtml">总部地址：北京信息科技大学健翔桥校区</div>
+<div xmlns="http://www.w3.org/1999/xhtml">单位名称：</div>
+<div xmlns="http://www.w3.org/1999/xhtml">营业执照注册号：xxxx</div>
+<div xmlns="http://www.w3.org/1999/xhtml">法定代表人：xxx</div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></投标人情况表>
+		<投标人财务状况表><div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 480px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 120px"/>
+<col style="WIDTH: 120px"/>
+<col style="WIDTH: 120px"/>
+<col style="WIDTH: 120px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 22px">
+<td rowSpan="2" style="BORDER-BOTTOM-COLOR: ; BORDER-RIGHT-COLOR: ; PADDING-RIGHT: 1px">
+<div><font size="2" face="宋体">资产总额</font></div></td>
+<td rowSpan="2" style="BORDER-LEFT-COLOR: ; BORDER-BOTTOM-COLOR: ; BORDER-RIGHT-COLOR: ; PADDING-RIGHT: 1px">
+<div><font size="2" face="宋体">50万元</font></div></td>
+<td style="BORDER-LEFT-COLOR: ">
+<div><font size="2" face="宋体">固定资产</font></div></td>
+<td>
+<div><font size="2" face="宋体">30万元</font></div></td></tr>
+<tr style="MIN-HEIGHT: 21px">
+<td style="BORDER-LEFT-COLOR: ">
+<div><font size="2" face="宋体">流动资产</font></div></td>
+<td>
+<div><font size="2" face="宋体">20万元</font></div></td></tr>
+<tr style="MIN-HEIGHT: 21px">
+<td rowSpan="2" style="BORDER-TOP-COLOR: ; BORDER-BOTTOM-COLOR: ; BORDER-RIGHT-COLOR: ; PADDING-RIGHT: 1px">
+<div><font size="2" face="宋体">负债总额</font></div></td>
+<td rowSpan="2" style="BORDER-TOP-COLOR: ; BORDER-LEFT-COLOR: ; BORDER-BOTTOM-COLOR: ; BORDER-RIGHT-COLOR: ; PADDING-RIGHT: 1px">
+<div><font size="2" face="宋体">0万元</font></div></td>
+<td style="BORDER-LEFT-COLOR: ">
+<div><font size="2" face="宋体">长期负债</font></div></td>
+<td>
+<div><font size="2" face="宋体">0万元</font></div></td></tr>
+<tr style="MIN-HEIGHT: 22px">
+<td style="BORDER-LEFT-COLOR: ">
+<div><font size="2" face="宋体">流动负债</font></div></td>
+<td>
+<div><font size="2" face="宋体">0万元</font></div></td></tr></tbody></table></div></投标人财务状况表>
+		<投标人专业技术人员一览表><div xmlns="http://www.w3.org/1999/xhtml">系统分析：王滋明</div>
+<div xmlns="http://www.w3.org/1999/xhtml">后端编程：张春雨，吴佳泽</div>
+<div xmlns="http://www.w3.org/1999/xhtml">前端编程：黄晴，曾纪斌</div></投标人专业技术人员一览表>
+		<其他></其他>
+	</附件>
+</投标书>
