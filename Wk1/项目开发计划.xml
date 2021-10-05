@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.9" PIVersion="1.0.0.0" href="file:///D:\教学\软件项目实践\软件项目实践\文档模板\《项目开发计划》模板.xsn" name="urn:schemas-microsoft-com:office:infopath:-i-0AQB-Qo:" language="zh-cn" productVersion="14.0.0" ?><?mso-application progid="InfoPath.Document"?><项目开发计划 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<首部 项目名称="今日头条" 项目标识="" version="1.0">
+		<状态与版本信息>
+			<文件状态>正式发布</文件状态>
+			<文件标识></文件标识>
+			<当前版本>1.0</当前版本>
+			<作者>
+				<姓名>王滋明，张春雨</姓名>
+				<学号>2018011318,2018011323</学号>
+				<团队>见萌组</团队>
+			</作者>
+			<完成日期>2021-10-07</完成日期>
+			<版本更新信息>无</版本更新信息>
+		</状态与版本信息>
+		<引言>
+			<使用人员>项目开发组所有成员。</使用人员>
+			<编写目的>通过编写该计划书，明确规定今日头条APP的详细技术需求，列出项目产出（项目完成后需要提交的文档，可满足需求的软件等），大致的实现方案和实施方案（包括哪些时间点需要调教哪些产出等日程规划），人事组织安排计划（现有的人力资源，项目过程中的人力流动，组织结构及策略等），项目可行性分析及建议包括所有面向用户，面向机械设备和其他系统软件的接口。明确用户索要的系统功能，为本小组其后的系统设计，编码，测试和维护工作提供参考和指导，确保系统开发工作的顺利进行，同时明确最终所要求达到的成果。</编写目的>
+			<背景><div xmlns="http://www.w3.org/1999/xhtml">现在人们几乎都有手机，并且有越来越多的人开始关心社会，国家发生的事件，为了能够随时随地的知道国家社会发生的事件，所以设计一个能够安装在手机上的APP，能够时刻反映新闻，方便人民阅读，给人们带来便利。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">项目名称：今日头条</div>
+<div xmlns="http://www.w3.org/1999/xhtml">项目提出者：田见萌</div>
+<div xmlns="http://www.w3.org/1999/xhtml">开发者：吴佳泽，黄晴，张春雨，曾纪斌</div>
+<div xmlns="http://www.w3.org/1999/xhtml">配置要求：MySQL数据库，Idea等。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">该软件需与数据库连接使用才能运行。</div></背景>
+			<定义与缩写>
+				<术语>无</术语>
+				<解释>无</解释>
+			</定义与缩写>
+			<参考资料>
+				<条目>项目开发计划（GB8567——88）2项目概述</条目><条目>《软件项目管理案例教程（第4版）》 韩万江编著 机械工业出版社出版</条目>
+			</参考资料>
+		</引言>
+	</首部>
+	<项目概述>
+		<工作内容><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">做好需求分析、确定好开发工具与数据库。</font></div>
+<div><font size="2" face="宋体">安排好人员的职责，合理化开发进度，并以文件形式保存</font></div>
+<div><font size="2" face="宋体">及时与用户沟通，调整项目的要求</font></div>
+<div><font size="2" face="宋体">与用户交流，设计好用户界面</font></div></div></工作内容>
+		<主要参加人员><div xmlns="http://www.w3.org/1999/xhtml">项目经理：田见萌</div>
+<div xmlns="http://www.w3.org/1999/xhtml">设计人员：吴佳泽、王滋明</div>
+<div xmlns="http://www.w3.org/1999/xhtml">编码人员：吴佳泽、张春雨、黄晴、曾纪斌</div>
+<div xmlns="http://www.w3.org/1999/xhtml">配置人员：卢炜</div>
+<div xmlns="http://www.w3.org/1999/xhtml">文档撰写：李连航</div>
+<div xmlns="http://www.w3.org/1999/xhtml">测试人员：李静雯、崔敏双、郑培森、王滋明</div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></主要参加人员>
+		<产品>
+			<程序>MySQL 8.0,Intellij IDEA 2020.2.3,Microsoft Visual Studio 2010</程序>
+			<文件><div xmlns="http://www.w3.org/1999/xhtml">1.可行性研究报告：对现有技术、劳务资源、法律社会相关问题进行可行性分析。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">2.项目开发计划书：为软件项目实施方案制订出具体计划，应该包括各部分 工作的负责人员、开发的进度、开发经费的预算、所需的硬件及软件资源等。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">3.软件需求说明书：用户要求软件需要实现的功能、界面设计。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">4.概要设计说明书：明功能 分配、模块划分、程序的总体结构、输入输出以及接口设计、运行设计、数据结构设计和出错处理设计等，为详细设计提供基础。  </div>
+<div xmlns="http://www.w3.org/1999/xhtml">5.详细设计说明书：各个功能模块的具体逻辑代码实现。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">6.数据库设计说明书：实体关系描述，各表存储的具体数据及属性数据类型等。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">7.操作手册：让用户了解软件的运行情况与操作方法。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">8.测试计划：测试方案、测试用例及测试结果。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">9.测试分析报告：分析测试结果并作出改善。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">10.项目开发总结报告：对本次完成的项目进行总结。</div></文件>
+			<服务><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">培训安装：2022-1-1—2022-1-2 一级服务</font></div>
+<div><font size="2" face="宋体">维护：    2022-1-1—2023-1-1 一级服务</font></div>
+<div><font size="2" face="宋体">运行支持：2022-1-1—2023-1-1 一级服务</font></div></div></服务>
+			<非移交的产品><div xmlns="http://www.w3.org/1999/xhtml">1.可行性分析报告  </div>
+<div xmlns="http://www.w3.org/1999/xhtml">2.项目开发计划  </div>
+<div xmlns="http://www.w3.org/1999/xhtml">3.软件需求说明书</div>
+<div xmlns="http://www.w3.org/1999/xhtml">4.概要设计说明书</div>
+<div xmlns="http://www.w3.org/1999/xhtml">5.详细设计说明书</div>
+<div xmlns="http://www.w3.org/1999/xhtml">6.测试计划</div>
+<div xmlns="http://www.w3.org/1999/xhtml">7.测试分析报告</div>
+<div xmlns="http://www.w3.org/1999/xhtml">8.开发进度月报 </div>
+<div xmlns="http://www.w3.org/1999/xhtml">9.项目开发总结报告  </div>
+<div xmlns="http://www.w3.org/1999/xhtml">10.源程序：软件开发过程中的全部代码以及注释。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">11.数据库设计说明书</div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体"></font> </div></非移交的产品>
+		</产品>
+		<验收标准><div xmlns="http://www.w3.org/1999/xhtml">代码无误，系统运行流畅、满足需求里的所有功能，满足用户需要。</div></验收标准>
+		<完成项目的最迟期限>2021-11-21</完成项目的最迟期限>
+	</项目概述>
+	<实施计划>
+		<角色定义及分配><div xmlns="http://www.w3.org/1999/xhtml">
+<div>
+<table tabIndex="-1" class="msoUcTable" style="BORDER-TOP-STYLE: none; WORD-WRAP: break-word; BORDER-LEFT-STYLE: none; WIDTH: 498px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none" borderColor="#000000" border="1">
+<colgroup>
+<col style="WIDTH: 100px"/>
+<col style="WIDTH: 73px"/>
+<col style="WIDTH: 124px"/>
+<col style="WIDTH: 56px"/>
+<col style="WIDTH: 56px"/>
+<col style="WIDTH: 89px"/></colgroup>
+<tbody>
+<tr>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">人员</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">管理组</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">开发组</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">质保组</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">配置组</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">用户组</font></div></font></td></tr>
+<tr>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">田见萌</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">项目经理</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">（兼）</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">吴佳泽</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">（兼）</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">组长（设计师）</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">郑培森</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">（兼）</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">组长</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">（兼）</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">卢炜</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">（兼）</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">组长</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">王滋明</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">系统分析</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">张春雨</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">编程（后端）</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">吴佳泽</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">编程（后端）</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">黄晴</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">编程（前端）</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">曾纪斌</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">编程（前端）</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">李连航</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">文档撰写</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">李静雯</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">单元测试</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">崔敏双</font></div>
+<div valign="baseline"><font size="2" face="宋体">郑培森</font></div>
+<div valign="baseline"><font size="2" face="宋体">王滋明</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">测试</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td></tr>
+<tr>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">崔敏双</font></div>
+<div valign="baseline"><font size="2" face="宋体">郑培森</font></div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体"></font> </div></font></td>
+<td vAlign="middle"><font size="2" face="宋体">
+<div valign="baseline"><font size="2" face="宋体">需求评审、</font></div>
+<div valign="baseline"><font size="2" face="宋体">验收测试</font></div></font></td></tr></tbody></table></div>
+<div valign="baseline"><font size="2" face="宋体"></font> </div></div></角色定义及分配>
+		<过程域方法与工具>甘特图，Project</过程域方法与工具>
+		<任务与进度>
+			<任务与进度计划><div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 480px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 183px"/>
+<col style="WIDTH: 148px"/>
+<col style="WIDTH: 149px"/></colgroup>
+<tbody vAlign="top">
+<tr>
+<td>
+<div><font size="2" face="宋体">里程碑</font></div></td>
+<td style="BORDER-LEFT-COLOR: ">
+<div><font size="2" face="宋体">提交日期</font></div></td>
+<td>
+<div><font size="2" face="宋体">负责人</font></div></td></tr>
+<tr style="MIN-HEIGHT: 20px">
+<td>
+<div><font size="2" face="宋体">可行性分析报告</font></div></td>
+<td style="BORDER-LEFT-COLOR: ">
+<div><font size="2" face="宋体">2021-9-15</font></div></td>
+<td>
+<div><font size="2" face="宋体">李连航</font></div></td></tr>
+<tr style="MIN-HEIGHT: 22px">
+<td>
+<div><font size="2" face="宋体">需求分析</font></div></td>
+<td style="BORDER-LEFT-COLOR: ">
+<div><font size="2" face="宋体">2021-9-20</font></div></td>
+<td>
+<div><font size="2" face="宋体">田见萌</font></div></td></tr>
+<tr style="MIN-HEIGHT: 20px">
+<td>
+<div><font size="2" face="宋体">概要设计</font></div></td>
+<td style="BORDER-LEFT-COLOR: ">
+<div><font size="2" face="宋体">2021-10-15</font></div></td>
+<td>
+<div><font size="2" face="宋体">吴佳泽</font></div></td></tr>
+<tr>
+<td>
+<div><font size="2" face="宋体">详细设计</font></div></td>
+<td style="BORDER-LEFT-COLOR: ">
+<div><font size="2" face="宋体">2021-10-20</font></div></td>
+<td>
+<div><font size="2" face="宋体">王滋明、卢炜</font></div></td></tr>
+<tr style="MIN-HEIGHT: 21px">
+<td>
+<div><font size="2" face="宋体">模块代码实现</font></div></td>
+<td style="BORDER-LEFT-COLOR: ">
+<div><font size="2" face="宋体">2021-11-5</font></div></td>
+<td>
+<div><font size="2" face="宋体">张春雨、吴佳泽、黄晴、曾纪斌</font></div></td></tr>
+<tr style="MIN-HEIGHT: 20px">
+<td>
+<div><font size="2" face="宋体">测试</font></div></td>
+<td style="BORDER-LEFT-COLOR: ">
+<div><font size="2" face="宋体">2021-11-15</font></div></td>
+<td>
+<div><font size="2" face="宋体">李静雯、崔敏双、郑培森</font></div></td></tr>
+<tr>
+<td>
+<div><font size="2" face="宋体">交付</font></div></td>
+<td style="BORDER-LEFT-COLOR: ">
+<div><font size="2" face="宋体">2021-11-20</font></div></td>
+<td>
+<div><font size="2" face="宋体">田见萌</font></div></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></任务与进度计划>
+			<甘特图><img tabIndex="-1" style="HEIGHT: 358px; WIDTH: 599px" src="msoinline/8e464f8d07a4434" xmlns="http://www.w3.org/1999/xhtml" xd:inline="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" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003"/></甘特图>
+		</任务与进度>
+		<预算><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">人员：11</font></div>
+<div><font size="2" face="宋体">时间：三个月</font></div>
+<div><font size="2" face="宋体">办公费：25000元</font></div>
+<div><font size="2" face="宋体">差旅费：500元</font></div>
+<div><font size="2" face="宋体">机时费：500元</font></div>
+<div><font size="2" face="宋体">资料费：200元</font></div>
+<div><font size="2" face="宋体">通讯设备：2000元</font></div>
+<div><font size="2" face="宋体">租设备：2000元</font></div>
+<div><font size="2" face="宋体">共计：30200元</font></div>
+<div><font size="2" face="宋体">来源：公司流动资金</font></div></div></预算>
+		<关键问题><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">1.账单报表问题能否实现。</font></div>
+<div><font size="2" face="宋体">解决：网上查相关资料，查看相应书籍。</font></div>
+<div><font size="2" face="宋体">2.查询的等待时间能否满足客户需求。</font></div>
+<div><font size="2" face="宋体">解决：优化算法，增强硬件性能。</font></div>
+<div><font size="2" face="宋体">3.数据库表设计的合理性</font></div>
+<div><font size="2" face="宋体">解决：严格采用第三范式来设计数据库，先规划好在去实现。</font></div></div></关键问题>
+	</实施计划>
+	<支持条件>
+		<计算机系统支持><div xmlns="http://www.w3.org/1999/xhtml">服务器的要求：</div>
+<div xmlns="http://www.w3.org/1999/xhtml">1．服务器的中央处理部件（CPU）建议使用PIII 1G（以上） Xeon处理器芯片。 </div>
+<div xmlns="http://www.w3.org/1999/xhtml">2．服务器内存必须使用服务器专用ECC内存 </div>
+<div xmlns="http://www.w3.org/1999/xhtml">3．为了保证数据存储的绝对可靠，硬盘应使用磁盘冗余阵列（RAID 01）</div>
+<div xmlns="http://www.w3.org/1999/xhtml">4．为了防止服务器不可预测的故障，或者服务器的定期维护对公司整个业务造成的影响，所有建议使用两台服务器。两台服务器应构成双机热备份。中间使用Watchdog电路。这样的结构可以保证整个系统的长时间不间断工作，即使在服务器定期维护的时候也可以使用后备另一台服务器工作。 </div>
+<div xmlns="http://www.w3.org/1999/xhtml">5．服务器应支持热插拔电源 </div>
+<div xmlns="http://www.w3.org/1999/xhtml">6．服务器必须配备UPS（不间断电源）。 </div>
+<div xmlns="http://www.w3.org/1999/xhtml">7．服务器应该放在学校内部。不然无法进行程序调试。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">8．服务器应该必须有固定IP地址。 </div>
+<div xmlns="http://www.w3.org/1999/xhtml">9．其他性能在经济条件允许的情况下，应该尽量使用高速稳定的配件。 </div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml">软件的要求：</div>
+<div xmlns="http://www.w3.org/1999/xhtml">1．操作系统：Windows 9x系列或者Windows 2000系列</div>
+<div xmlns="http://www.w3.org/1999/xhtml">2．数据库：MySQL 8.0</div>
+<div xmlns="http://www.w3.org/1999/xhtml">5．各操作机的操作系统尽量统一。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">6．各操作机需要安装反病毒软件和防火墙。</div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体"></font> </div></计算机系统支持>
+		<需由用户承担的工作><div xmlns="http://www.w3.org/1999/xhtml">认真阅读用户手册，尽快学习并掌握该软件的全部功能。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">如果用户有了新的需求，尽快向开发人员反映。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">如果软件做的哪不是用户所期望的，尽快提出。</div></需由用户承担的工作>
+		<由外单位提供的条件>无</由外单位提供的条件>
+	</支持条件>
+	<专题计划要点><div xmlns="http://www.w3.org/1999/xhtml">1.开发人员培训计划：2021年9月20日起，至2021年月30日，共十天实习期间，上午进行软件工程项目开发各项内容的专题知识讲座；下午进行开发设计。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">2.测试计划 2021年11月15日—2021年11月20日对软件进行各项测试工作</div>
+<div xmlns="http://www.w3.org/1999/xhtml">3.质量保证计划：严格按照项目开发过程中的各项步骤，从项目立项，可行性研究报告、需求分析报告、项目开发计划等</div>
+<div xmlns="http://www.w3.org/1999/xhtml">4.人员配置计划：该项目开发小组共11人，项目经理：田见萌，组员：吴佳泽、张春雨、王滋明、郑培森、卢炜、黄晴、崔敏双、李静雯、李连航、曾纪斌。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">5.客户培训计划：在软件实际应用后的前一个月，对用户进行软件操作方法的具体培训</div>
+<div xmlns="http://www.w3.org/1999/xhtml">6.安全保密计划：在从项目开发阶段到最后软件的正式发布期间，做好项目的保密工作，小组成员对所有项目所有相关文档进行加密，做好备份工作。</div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体"></font> </div></专题计划要点>
+</项目开发计划>
