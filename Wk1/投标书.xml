@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.11" PIVersion="1.0.0.0" href="file:///D:\教学\软件项目实践\软件项目实践\文档模板\《投标书》模板.xsn" name="urn:schemas-microsoft-com:office:infopath:-E7V-Qo:" language="zh-cn" productVersion="15.0.0" ?><?mso-application progid="InfoPath.Document"?><投标书 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
-	<首部 项目名称="今日头条" 项目标识="" version="1.0">
+	<首部 项目名称="今日头条" 项目标识="TT" version="1.0">
 		<状态与版本信息>
 			<文件状态></文件状态>
 			<文件标识></文件标识>
@@ -21,7 +21,7 @@
 	<文件编号>000001</文件编号>
 	<投标单位>
 		<单位>
-			<名称>（（（（（还没起</名称>
+			<名称>软件开发公司</名称>
 			<签章></签章>
 		</单位>
 		<负责人>
