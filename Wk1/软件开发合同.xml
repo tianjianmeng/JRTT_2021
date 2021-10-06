@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.8" PIVersion="1.0.0.0" href="file:///D:\教学\软件项目实践\软件项目实践\文档模板\《软件开发合同》模板.xsn" name="urn:schemas-microsoft-com:office:infopath:--f0A8--Qo:" language="zh-cn" productVersion="14.0.0" ?><?mso-application progid="InfoPath.Document"?><软件开发合同 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<首部 项目名称="今日头条" 项目标识="TT" version="1.0">
+		<状态与版本信息>
+			<文件状态>正式发布</文件状态>
+			<文件标识></文件标识>
+			<当前版本>1.0</当前版本>
+			<作者>
+				<姓名>曾纪斌</姓名>
+				<学号>2018011244</学号>
+				<团队>见萌队</团队>
+			</作者>
+			<完成日期>2021-10-07</完成日期>
+			<版本更新信息><div xmlns="http://www.w3.org/1999/xhtml"><font face="仿宋_GB2312">1.版本更新说明</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font face="仿宋_GB2312"> 当前版本发布后，团队其他队员若对本文档有建议，可在原文档注明，要增加的内容用红色字写出，要删除的东西改成灰色，修改后把改好的文档命名为“XXX修改版”，发给我，团队成员评审后决定是否修改。</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font face="仿宋_GB2312">2. 版本更新记录：</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 576px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 192px"/>
+<col style="WIDTH: 192px"/>
+<col style="WIDTH: 192px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 6px">
+<td>
+<div align="center"><font size="2" face="宋体">版本号</font></div></td>
+<td>
+<div align="center"><font size="2" face="宋体">更新时间</font></div></td>
+<td>
+<div align="center"><font size="2" face="宋体">更新陈述</font></div></td></tr>
+<tr style="MIN-HEIGHT: 45px">
+<td>
+<div><font size="2" face="宋体"><u>V1</u>.0 </font></div></td>
+<td>
+<div><font size="2" face="宋体">2021.10.7</font></div></td>
+<td>
+<div> </div></td></tr></tbody></table></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></版本更新信息>
+		</状态与版本信息>
+		<引言>
+			<使用人员></使用人员>
+			<编写目的></编写目的>
+			<背景></背景>
+			<定义与缩写>
+				<术语></术语>
+				<解释></解释>
+			</定义与缩写>
+			<参考资料>
+				<条目></条目>
+			</参考资料>
+		</引言>
+	</首部>
+	<合同编号>GSIEJJSJD21106</合同编号>
+	<签订单位>
+		<甲方>
+			<名称>软件开发有限公司</名称>
+			<联系方式>1xxxxxxxx</联系方式>
+			<银行帐户>xxxxxxxxxxxxxxxxxxxx</银行帐户>
+		</甲方>
+		<乙方>
+			<名称>北京信息科技大学今日头条团队</名称>
+			<联系方式><div xmlns="http://www.w3.org/1999/xhtml">1xxxxxxxx</div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></联系方式>
+			<银行帐户>xxxxxxxxxxxxxxxxxxxx</银行帐户>
+		</乙方>
+		<其他方>
+			<名称></名称>
+			<联系方式></联系方式>
+			<银行帐户></银行帐户>
+		</其他方>
+	</签订单位>
+	<引言>本项目使用本文档定义的通用过程(TT-SCZQ)进行软件的过程管理，它为项目管理人员、开发人员、测试人员提供了一个完整的过程框架，从而便于项目相关人员在项目目标、交付产品和开发进展方面进行交流沟通。
+<div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体"></font> </div></div></引言>
+	<总则><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">本合同于2021 年10 月6 日由<strong>北京信息科技大学今日头条团队</strong>（供方）与<strong>软件开发有限公司</strong>（需方）签订。并经供需双方友好协商同意下列条款：</font></div></div></总则>
+	<项目描述><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">根据中国互联网发展报告所得，中国网民数量规模已经达到8.29亿，相比较去年新增网民5663万，互联网普及率达59.6%，网民数量的大幅度增加，说明了智能手机的普及率在不断的增加，对于手机上的APP来说是一个发展的机遇。同时对于新闻资讯类的APP市场来说潜力更大。对于互联网行业发展也是一个极大的契机，网民数量以及智能手机的大量普及都为以后的互联网产品提供了坚实的基础。</font></div>
+<div><font size="2" face="宋体">新闻资讯类行业是属于互联网行业，国家对于互联网行业是积极鼓励互联网、产品和服务创新，激发市场活力。同时对于新闻资讯行业鼓励他们相互合作，实现优势互补，同时政府简政放权，对于政府的新闻不在单一的从国家新闻网发布出去，而是从各个渠道传播出去。在新闻资讯行业坚持国家正确主流的前提下，国家对其一直是支持。新闻资讯行业的发展前景一片大好。</font></div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">经过不懈努力，<strong>北京信息科技大学今日头条团队</strong>(乙方)获得了本项目的开发权，经双方友好协商，本软件项目名称定为《今日头条》。</font></div></div></项目描述>
+	<研究开发计划><font size="2" xmlns="http://www.w3.org/1999/xhtml">详见：项目开发计划文件</font></研究开发计划>
+	<合同总额和构成><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">合同总额为（人民币大写）：捌拾万元整</font></div>
+<div><font size="2" face="宋体">其中： </font></div>
+<div><font size="2" face="宋体">软件开发费：肆拾万元整</font></div>
+<div><font size="2" face="宋体">技术支持与服务：叁拾万元整</font></div>
+<div><font size="2" face="宋体">培训费：拾万元整</font></div></div></合同总额和构成>
+	<付款方式和时间><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">甲方在合同签订后三个工作日内支付乙方合同额的50％，计：人民币肆拾万元整；系统初验通过后七个工作日内支付乙方合同额的30％，计：人民币人民币拾伍万元整；通过终验后五个工作日内付清乙方合同额20%，计：人民币拾万元整。</font></div></div></付款方式和时间>
+	<履行的期限地点和方式><div xmlns="http://www.w3.org/1999/xhtml"><font style="FONT-SIZE: medium" xmlns="http://www.w3.org/1999/xhtml"></font><font size="2" xmlns="http://www.w3.org/1999/xhtml">2021年10月7日-2021年12月1日</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml">办公地点：北京信息科技大学健翔桥校区</div>
+<div xmlns="http://www.w3.org/1999/xhtml">方式：实地办公</div></履行的期限地点和方式>
+	<责任>
+		<甲方>
+			<条款><font size="2" face="宋体" xmlns="http://www.w3.org/1999/xhtml">双方签订合同后三个工作日内，需方向供方支付预付款，并按合同规定分类分期地付款。</font></条款><条款><font size="2" face="宋体" xmlns="http://www.w3.org/1999/xhtml">需方（包括个部门）在工程实施的各环节上应积极向供方提供相应的人力和环境配合，以保证乙方在软件的应用调研、开发测试、安装调试、培训辅导等阶段顺利地进行软件施工。</font></条款>
+		</甲方>
+		<乙方>
+			<条款><font size="2" face="宋体" xmlns="http://www.w3.org/1999/xhtml">供方在收到需方的预付款后三个工作日内开始软件项目工程的实施。</font></条款><条款><font size="2" face="宋体" xmlns="http://www.w3.org/1999/xhtml">供方按照"系统设计方案和软件功能描述、信息系统功能组成及描述"中所列的内容分别完成软件各功能模块的制作。</font></条款><条款><font size="2" face="宋体" xmlns="http://www.w3.org/1999/xhtml">在软件系统正常运行后，供方提供相应源代码及相应技术文档。(进一步明确)</font></条款><条款><font size="2" face="宋体" xmlns="http://www.w3.org/1999/xhtml">供方按照"系统服务范围和内容"分别提供本项目的系统服务。</font></条款><条款><font size="2" face="宋体" xmlns="http://www.w3.org/1999/xhtml">供方按照"培训计划"提供相关的培训服务。</font></条款><条款><font size="2" face="宋体" xmlns="http://www.w3.org/1999/xhtml">供方在合同规定的维护期满后，有义务向需方提供有偿的后续技术支持。</font></条款>
+		</乙方>
+		<其他方>
+			<条款></条款>
+		</其他方>
+	</责任>
+	<违约责任></违约责任>
+	<其他责任><div style="FONT-WEIGHT: normal" xmlns="http://www.w3.org/1999/xhtml"><font size="2">1. 供方在本合同中所提供给需方的软件源代码及其技术文档只能在需方的内部使用，需方不得将此次软件中的任何功能模块和技术资料提供给第三方。</font></div>
+<div style="FONT-WEIGHT: normal" xmlns="http://www.w3.org/1999/xhtml"><font size="2">2. 本合同按中华人民共和国知识产权保护条例、计算机软件保护条例、经济合同法以及适用于本合同的有关法 律条例执行。</font></div>
+<div style="FONT-WEIGHT: normal" xmlns="http://www.w3.org/1999/xhtml"><font size="2">3.因本合同引起的争议，供需双方应首先通过友好协商解决。如果在一方向另一方发出要求协商的书面通知后六十天内仍不能解决争议，则应依司法程序解决。</font></div>
+<div style="FONT-WEIGHT: normal" xmlns="http://www.w3.org/1999/xhtml"><font size="2">4. 本合同未尽事宜，双方另行协商签定补充条款，补充条款与本合同具有同等法律效力。未尽事宜均按照中国人民共和国现行有关法律进行补充。本合同一式四份，双方各执二份，经双方签字盖章后生效。</font></div>
+<div style="FONT-WEIGHT: normal" xmlns="http://www.w3.org/1999/xhtml"><font size="2">5. 本协议从签订之日起，乙方在80个工作日内完成系统开发并提交给甲方。系统提交给甲方之日起的10个工作 日内，乙方负责对甲方有关人员进行培训。乙方在项目验收合格后提供一年的免费维护。</font></div>
+<div style="FONT-WEIGHT: normal" xmlns="http://www.w3.org/1999/xhtml"><font size="2">6.本协议从签订之日起，甲乙两方在合同生效期间，保证产品开发和接受过程中对环境安全进行最低程度的保护工作，不得对周边环境造成破坏。</font></div></其他责任>
+	<保密要求>严禁将项目任何资料，代码泄露到公开场合</保密要求>
+	<技术成果的归属和分享>团队内分享。</技术成果的归属和分享>
+	<验收标准><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">供、需双方按照软件需求规格说明书以及相关的系统服务进行验收。</font></div></div></验收标准>
+	<风险承担>风险由项目经理承担。</风险承担>
+	<违约金和损失赔偿额><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">除因不可抗拒的因数（指发生战争、地震、洪水等其他人力不能控制的不可抗力事件）外，若因一方违反协议造成损失，违反协议的一方应该承担赔偿责任。</font></div>
+<div>违约金为十万元人民币</div></div></违约金和损失赔偿额>
+	<解决合同纠纷的方式>报警依法处理。</解决合同纠纷的方式>
+	<名词术语解释>无</名词术语解释>
+	<其他>无</其他>
+	<签字签章>
+		<甲方></甲方>
+		<乙方></乙方>
+		<其他方></其他方>
+	</签字签章>
+	<补充条款>无</补充条款>
+</软件开发合同>
