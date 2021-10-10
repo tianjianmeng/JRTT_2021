@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.14" PIVersion="1.0.0.0" href="file:///D:\教学\本科生\软件项目实践\文档模板设计\《软件需求说明书》模板.xsn" name="urn:schemas-microsoft-com:office:infopath:--f02d-V-Qo:" language="zh-cn" productVersion="15.0.0" ?><?mso-application progid="InfoPath.Document"?><软件需求说明书 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<首部 项目名称="今日头条" 项目标识="TT" version="1.0">
+		<状态与版本信息>
+			<文件状态>草稿</文件状态>
+			<文件标识>JRTT-RJXQ-v1.0</文件标识>
+			<当前版本>1.0</当前版本>
+			<作者>
+				<姓名>王滋明</姓名>
+				<学号>2018011318</学号>
+				<团队>见萌队</团队>
+			</作者>
+			<完成日期>2021-10-10</完成日期>
+			<版本更新信息>无</版本更新信息>
+		</状态与版本信息>
+		<引言>
+			<使用人员>田见萌，吴佳泽，张春雨，王滋明，郑培森，曾纪斌，李连航，黄晴，崔敏双，李静雯，卢炜</使用人员>
+			<编写目的>明确规定今日头条APP的详细技术需求，列出项目产出（项目完成后需要提交的文档，可满足需求的软件等），大致的实现方案和实施方案（包括哪些时间点需要调教哪些产出等日程规划），人事组织安排计划（现有的人力资源，项目过程中的人力流动，组织结构及策略等），项目可行性分析及建议包括所有面向用户，面向机械设备和其他系统软件的接口。明确用户索要的系统功能，为本小组其后的系统设计，编码，测试和维护工作提供参考和指导，确保系统开发工作的顺利进行，同时明确最终所要求达到的成果</编写目的>
+			<背景><div xmlns="http://www.w3.org/1999/xhtml">现在人们几乎都有手机，并且有越来越多的人开始关心社会，国家发生的事件，为了能够随时随地的知道国家社会发生的事件，所以设计一个能够安装在手机上的APP，能够时刻反映新闻，方便人民阅读，给人们带来便利。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">项目名称：今日头条</div>
+<div xmlns="http://www.w3.org/1999/xhtml">项目提出者：田见萌</div>
+<div xmlns="http://www.w3.org/1999/xhtml">开发者：吴佳泽，黄晴，张春雨，曾纪斌</div>
+<div xmlns="http://www.w3.org/1999/xhtml">配置要求：mysql数据库，Idea等。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">该软件需与数据库连接使用才能运行。</div></背景>
+			<定义与缩写>
+				<术语>JRTT-RJXQ-v1.0</术语>
+				<解释>今日头条的软件需求说明书，版本1.0</解释>
+			</定义与缩写>
+			<参考资料>
+				<条目>《<em xmlns="http://www.w3.org/1999/xhtml">软件项目管理</em>(原书第5版）》</条目>
+			</参考资料>
+		</引言>
+	</首部>
+	<任务概述>
+		<目标><div xmlns="http://www.w3.org/1999/xhtml">开发意图：为了能够随时随地的在移动端上知道国家社会发生的事件，所以设计一个能够安装在手机上的APP，能够时刻反映新闻，方便人民阅读，给人们带来便利。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">应用目标：该应用能够实时更新后台新闻数据；</div>
+<div xmlns="http://www.w3.org/1999/xhtml">
+<div class="lake-content" typography="classic"><font size="2" face="宋体">
+<ul class="ne-ul" style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">
+<li><span class="ne-text">基于 Token 的验证方案处理用户登录</span></li></ul>
+<ul class="ne-ul" style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">
+<li><span class="ne-text">移动端表单验证方案及交互提示</span></li></ul>
+<ul class="ne-ul" style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">
+<li><span class="ne-text">短信验证码的发送与验证</span></li></ul>
+<ul class="ne-ul" style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">
+<li><span class="ne-text">用户中心、个人资料展示</span></li></ul>
+<ul class="ne-ul" style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">
+<li><span class="ne-text">对文章内容的收藏、点赞和分享</span></li></ul>
+<ul class="ne-ul" style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">
+<li><span class="ne-text">编辑用户资料，其中包括基本信息修改及头像裁切上传等功能</span></li></ul>
+<ul class="ne-ul" style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">
+<li><span class="ne-text">列表类页面的加载、缓存及优化</span></li></ul>
+<ul class="ne-ul" style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">
+<li><span class="ne-text">列表类页面的下拉刷新和上拉加载更多</span></li></ul>
+<ul class="ne-ul" style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">
+<li><span class="ne-text">资讯类文章详情展示和文章评论</span></li></ul>
+<ul class="ne-ul" style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">
+<li><span class="ne-text">完整的搜索业务：输入联想建议、搜索关键词高亮、搜索历史记录、搜索结果列表等</span></li></ul>
+<ul class="ne-ul" style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px">
+<li><span class="ne-text">即时通信核心业务及基于 WebSocket 的数据通信</span></li></ul>
+<div><span class="ne-text">作用范围：适用于所有Android系统8.0以上手机</span></div>
+<div><span class="ne-text"></span> </div></font></div></div></目标>
+		<用户特点><div xmlns="http://www.w3.org/1999/xhtml">用户能够自由设置登录密码，由系统后台记录；</div>
+<div xmlns="http://www.w3.org/1999/xhtml">用户能够自由添加，收藏，点赞感兴趣的文章；</div>
+<div xmlns="http://www.w3.org/1999/xhtml">用户能够自由编辑用户资料等信息；</div>
+<div xmlns="http://www.w3.org/1999/xhtml">用户可以通过搜索框搜索自己想要的文章内容；</div></用户特点>
+		<应用环境>Android 8.0及其以上</应用环境>
+		<假定和约束>开发期限：10月21号之前</假定和约束>
+	</任务概述>
+	<需求规定>
+		<对功能的规定>
+			<总体说明><div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">具体功能如下：</font></div>
+<ul class="ne-ul" style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px" xmlns="http://www.w3.org/1999/xhtml">
+<li><span class="ne-text">基于 Token 的验证方案处理用户登录</span></li></ul>
+<ul class="ne-ul" style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px" xmlns="http://www.w3.org/1999/xhtml">
+<li><span class="ne-text">移动端表单验证方案及交互提示</span></li></ul>
+<ul class="ne-ul" style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px" xmlns="http://www.w3.org/1999/xhtml">
+<li><span class="ne-text">短信验证码的发送与验证</span></li></ul>
+<ul class="ne-ul" style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px" xmlns="http://www.w3.org/1999/xhtml">
+<li><span class="ne-text">用户中心、个人资料展示</span></li></ul>
+<ul class="ne-ul" style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px" xmlns="http://www.w3.org/1999/xhtml">
+<li><span class="ne-text">对文章内容的收藏、点赞和分享</span></li></ul>
+<ul class="ne-ul" style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px" xmlns="http://www.w3.org/1999/xhtml">
+<li><span class="ne-text">编辑用户资料，其中包括基本信息修改及头像裁切上传等功能</span></li></ul>
+<ul class="ne-ul" style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px" xmlns="http://www.w3.org/1999/xhtml">
+<li><span class="ne-text">列表类页面的加载、缓存及优化</span></li></ul>
+<ul class="ne-ul" style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px" xmlns="http://www.w3.org/1999/xhtml">
+<li><span class="ne-text">列表类页面的下拉刷新和上拉加载更多</span></li></ul>
+<ul class="ne-ul" style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px" xmlns="http://www.w3.org/1999/xhtml">
+<li><span class="ne-text">资讯类文章详情展示和文章评论</span></li></ul>
+<ul class="ne-ul" style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px" xmlns="http://www.w3.org/1999/xhtml">
+<li><span class="ne-text">完整的搜索业务：输入联想建议、搜索关键词高亮、搜索历史记录、搜索结果列表等</span></li></ul>
+<ul class="ne-ul" style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px" xmlns="http://www.w3.org/1999/xhtml">
+<li><span class="ne-text">即时通信核心业务及基于 WebSocket 的数据通信</span></li></ul></总体说明>
+			<业务流程></业务流程>
+			<数据字典></数据字典>
+		</对功能的规定>
+		<对性能的规定>
+			<总体说明></总体说明>
+			<精度></精度>
+			<时间特性要求></时间特性要求>
+			<灵活性></灵活性>
+		</对性能的规定>
+		<输人输出要求></输人输出要求>
+		<数据管理能力要求></数据管理能力要求>
+		<故障处理要求></故障处理要求>
+		<其他专门要求></其他专门要求>
+	</需求规定>
+	<运行环境规定>
+		<设备></设备>
+		<支持软件></支持软件>
+		<接口></接口>
+		<控制></控制>
+	</运行环境规定>
+	<签字>
+		<需求方></需求方>
+		<开发方></开发方>
+	</签字>
+	<附件></附件>
+</软件需求说明书>
