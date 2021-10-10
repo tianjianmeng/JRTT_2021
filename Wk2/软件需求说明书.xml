@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.14" PIVersion="1.0.0.0" href="file:///D:\教学\本科生\软件项目实践\文档模板设计\《软件需求说明书》模板.xsn" name="urn:schemas-microsoft-com:office:infopath:--f02d-V-Qo:" language="zh-cn" productVersion="15.0.0" ?><?mso-application progid="InfoPath.Document"?><软件需求说明书 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.14" PIVersion="1.0.0.0" href="file:///D:\教学\本科生\软件项目实践\文档模板设计\《软件需求说明书》模板.xsn" name="urn:schemas-microsoft-com:office:infopath:--f02d-V-Qo:" language="zh-cn" productVersion="14.0.0" ?><?mso-application progid="InfoPath.Document"?><软件需求说明书 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
 	<首部 项目名称="今日头条" 项目标识="TT" version="1.0">
 		<状态与版本信息>
 			<文件状态>草稿</文件状态>
@@ -13,7 +13,27 @@
 			<版本更新信息><div xmlns="http://www.w3.org/1999/xhtml">1.版本更新说明</div>
 <div xmlns="http://www.w3.org/1999/xhtml">当前版本发布后，团队其他队员若对本文档有建议，可在原文档注明，要增加的内容用红色字写出，要删除的东西改成灰色，修改后把改好的文档命名为“XXX修改版”，发给我，团队成员评审后决定是否修改。</div>
 <div xmlns="http://www.w3.org/1999/xhtml">2. 版本更新记录：</div>
-<div xmlns="http://www.w3.org/1999/xhtml"> </div></版本更新信息>
+<div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 576px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 192px"/>
+<col style="WIDTH: 192px"/>
+<col style="WIDTH: 192px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 6px">
+<td>
+<div align="center"><font size="2" face="仿宋_GB2312">版本号</font></div></td>
+<td>
+<div align="center"><font size="2" face="仿宋_GB2312">更新时间</font></div></td>
+<td>
+<div align="center"><font size="2" face="仿宋_GB2312">更新陈述</font></div></td></tr>
+<tr style="MIN-HEIGHT: 45px">
+<td>
+<div><font size="2"><font face="仿宋_GB2312"><u>V1</u>.0 </font></font></div></td>
+<td>
+<div><font size="2" face="仿宋_GB2312">2021.10.7</font></div></td>
+<td>
+<div><font face="仿宋_GB2312"></font> </div></td></tr></tbody></table></div></版本更新信息>
 		</状态与版本信息>
 		<引言>
 			<使用人员>田见萌，吴佳泽，张春雨，王滋明，郑培森，曾纪斌，李连航，黄晴，崔敏双，李静雯，卢炜</使用人员>
