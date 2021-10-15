@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.6" PIVersion="1.0.0.0" href="file:///D:\教学\软件项目实践\网站\公开\教学资源\文档模板\《评审报告》模板.xsn" name="urn:schemas-microsoft-com:office:infopath:-4QU--Qo:" language="zh-cn" productVersion="14.0.0" ?><?mso-application progid="InfoPath.Document"?><评审报告 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<首部 项目名称="" 项目标识="" version="1.0">
+		<状态与版本信息>
+			<文件状态>正式发布</文件状态>
+			<文件标识>JRTT-HYPS-v1.0</文件标识>
+			<当前版本>1.0</当前版本>
+			<作者>
+				<姓名>田见萌</姓名>
+				<学号>2018011317</学号>
+				<团队>见萌队</团队>
+			</作者>
+			<完成日期>2021-10-15</完成日期>
+			<版本更新信息><div xmlns="http://www.w3.org/1999/xhtml"><font face="仿宋_GB2312">1.版本更新说明</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font face="仿宋_GB2312">当前版本发布后，团队其他队员若对本文档有建议，可在原文档注明，要增加的内容用红色字写出，要删除的东西改成灰色，修改后把改好的文档命名为“XXX修改版”，发给我，团队成员评审后决定是否修改。</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font face="仿宋_GB2312">2. 版本更新记录：</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 576px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 192px"/>
+<col style="WIDTH: 192px"/>
+<col style="WIDTH: 192px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 6px">
+<td>
+<div align="center"><font size="2" face="仿宋_GB2312">版本号</font></div></td>
+<td>
+<div align="center"><font size="2" face="仿宋_GB2312">更新时间</font></div></td>
+<td>
+<div align="center"><font size="2" face="仿宋_GB2312">更新陈述</font></div></td></tr>
+<tr style="MIN-HEIGHT: 45px">
+<td>
+<div><font size="2"><font face="仿宋_GB2312"><u>V1</u>.0 </font></font></div></td>
+<td>
+<div><font size="2" face="仿宋_GB2312">2021.10.7</font></div></td>
+<td>
+<div><font face="仿宋_GB2312"></font> </div></td></tr></tbody></table></div></版本更新信息>
+		</状态与版本信息>
+	</首部>
+	<标题>第三周评审报告</标题>
+	<组织名称>今日头条项目组</组织名称>
+	<评审种类>
+		<定期评审>1</定期评审>
+	</评审种类>
+	<主持人>田见萌</主持人>
+	<参加人>全组成员。</参加人>
+	<地点>北信科健翔桥校区</地点>
+	<日期>2021-10-15</日期>
+	<提交内容>审查需求文档</提交内容>
+	<评审项与结论>
+		<要素>审查需求文档</要素>
+		<评审结果>需求文档不合格。内容不明确，不方便开发组阅读。</评审结果>
+		<问题和对策>重写需求文档。</问题和对策>
+	</评审项与结论>
+	<总结>需要需求分析人员重写需求文档。</总结>
+	<签字></签字>
+	<附件>
+		<其他材料></其他材料>
+		<评审记录></评审记录>
+	</附件>
+</评审报告>
