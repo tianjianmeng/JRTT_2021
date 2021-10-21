@@ -1,0 +1,35 @@
+/**
+ * 基础样式
+ */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC","Helvetica Neue",STHeiti,"Microsoft Yahei",Tahoma,Simsun,sans-serif;
+  color: #333;
+  background-color: #ededed;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.page-navbar {
+  background-color: #3196fa;
+  .van-nav-bar__title, .van-icon, .van-nav-bar__text {
+    color: #fff;
+  }
+}
+
+.page-container {
+  padding: 46px 0 50px;
+  font-size: 14px;
+}
+
+.fixed-tabs {
+  padding-top: 44px;
+  .van-tabs__wrap {
+    position: fixed;
+    top: 46px;
+    right: 0;
+    left: 0;
+    z-index: 2;
+  }
+}
