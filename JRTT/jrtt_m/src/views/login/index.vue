@@ -21,7 +21,7 @@
       placeholder="请输入手机号"
       ref="mobile"
     >
-      <van-icon slot="left-icon" class-prefix="icon" name="shouji"></van-icon>
+    <van-icon slot="left-icon" class-prefix="icon" name="shouji"></van-icon>
     </van-field>
     <van-field
       v-model="user.code"
@@ -79,8 +79,7 @@ export default {
     }
   },
   computed: {},
-  watch: {
-  },
+  watch: {},
   created () {},
   methods: {
     async onLogin () {
