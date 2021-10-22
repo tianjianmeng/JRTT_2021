@@ -20,5 +20,5 @@ import java.util.List;
 @Mapper
 public interface ChannelMapper extends BaseMapper<Channel> {
     @Select("select * from channel")
-    List<Channel> getChannelByStatus();
+    List<Channel> getAllChannel();
 }

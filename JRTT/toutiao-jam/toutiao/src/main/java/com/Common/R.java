@@ -19,7 +19,7 @@ public class R {
     @ApiModelProperty(value = "返回数据")
     private Map<String, Object> data = new HashMap<String, Object>();
 
-    private R(){}
+    public R(){}
 
     public static R ok(){
         R r = new R();
@@ -52,12 +52,20 @@ public class R {
         return this;
     }
 
-    public R data(String key, Object value){
-        this.data.put(key, value);
-        return this;
+    public static R data(String key, Object value){
+        R r = new R();
+        r.data.put(key, value);
+        return r;
+    }
+
+    public static R data_(Map<String, Object> map){
+        R r = new R();
+        r.setData(map);
+        return r;
     }
 
     public R data(Map<String, Object> map){
+
         this.setData(map);
         return this;
     }

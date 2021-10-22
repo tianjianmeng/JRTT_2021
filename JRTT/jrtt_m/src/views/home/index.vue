@@ -15,7 +15,7 @@
     <!-- /导航栏 -->
 
     <!-- 频道列表 -->
-    <van-tabs ref="tabs" v-if="channels.length" class="fixed-tabs" v-model="active" swipeable>
+    <van-tabs ref="tabs" class="fixed-tabs" v-model="active" swipeable>
       <van-tab
         :title="channel.name"
         v-for="channel in channels"
@@ -108,9 +108,10 @@ export default {
   methods: {
     async loadUserChannels () {
       let channels = []
-      if (this.user) {
+      if (!this.user) {
         // 已登录，请求获取用户频道列表
         const { data } = await getUserChannels()
+        console.log(data)
         channels = data.data.channels
       } else {
         // 未登录

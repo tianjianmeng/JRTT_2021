@@ -1,66 +1,23 @@
 <template>
-  <!-- 无图 -->
   <div
-    v-if="article.cover.type === 0"
-    class="article-item article-item-0"
-    @click="onItemClick"
-  >
-    <div class="title">{{ article.title }}</div>
-    <div class="label">
-      <span>{{ article.aut_name }}</span>
-      <span>{{ article.comm_count }}评论</span>
-      <span>{{ article.pubdate | relativeTime }}</span>
-    </div>
-  </div>
-  <!-- /无图 -->
-
-  <!-- 三图 -->
-  <div
-    v-else-if="article.cover.type === 3"
-    class="article-item article-item-3"
-    @click="onItemClick"
-  >
-    <div class="title van-multi-ellipsis--l2">{{ article.title }}</div>
-    <div class="cover">
+      v-else
+      class="article-item article-item-1"
+      @click="onItemClick"
+    >
+      <div class="title-label">
+        <div class="title van-multi-ellipsis--l3">{{ article.title }}</div>
+        <div class="label">
+          <span>{{ article.aut_name }}</span>
+          <span>{{ article.pubdate }}</span>
+        </div>
+      </div>
       <van-image
+        class="cover"
         fit="cover"
-        class="cover-item"
-        :src="img"
-        v-for="(img, index) in article.cover.images"
-        :key="index"
+        src="https://img.yzcdn.cn/vant/cat.jpeg"
         lazy-load
       />
     </div>
-    <div class="label">
-      <span>{{ article.aut_name }}</span>
-      <span>{{ article.comm_count }}评论</span>
-      <span>{{ article.pubdate | relativeTime }}</span>
-    </div>
-  </div>
-  <!-- /三图 -->
-
-  <!-- 单图 -->
-  <div
-    v-else
-    class="article-item article-item-1"
-    @click="onItemClick"
-  >
-    <div class="title-label">
-      <div class="title van-multi-ellipsis--l3">{{ article.title }}</div>
-      <div class="label">
-        <span>{{ article.aut_name }}</span>
-        <span>{{ article.comm_count }}评论</span>
-        <span>{{ article.pubdate | relativeTime }}</span>
-      </div>
-    </div>
-    <van-image
-      class="cover"
-      fit="cover"
-      :src="article.cover.images[0]"
-      lazy-load
-    />
-  </div>
-  <!-- /单图 -->
 </template>
 
 <script>

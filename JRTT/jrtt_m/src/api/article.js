@@ -9,7 +9,7 @@ import request from '@/utils/request'
 export function getArticles (params) {
   return request({
     method: 'GET',
-    url: '/app/v1_1/articles',
+    url: '/example/article/articles',
     params
   })
 }
@@ -17,10 +17,11 @@ export function getArticles (params) {
 /**
  * 获取文章详情
  */
-export function getArticle (articleId) {
+export function getArticle () {
   return request({
     method: 'GET',
-    url: `/app/v1_0/articles/${articleId}`
+    // url: `/app/v1_0/articles/${articleId}`
+    url: '/example/article/articles'
   })
 }
 

@@ -19,7 +19,7 @@
 
 <script>
 import ArticleItem from '@/components/article-item'
-import { getArticles } from '@/api/article'
+import { getArticle } from '@/api/article'
 
 export default {
   name: '',
@@ -48,28 +48,26 @@ export default {
   methods: {
     async onLoad () {
       // 1. 请求获取数据
-      const { data } = await getArticles({
-        channel_id: this.channel.id, // 频道 id
-        timestamp: this.timestamp || Date.now(), // 获取下一页数据的时间戳，Date.now() 表示获取当前最新数据
-        with_top: 1
-      })
+      const { data } = await getArticle()
 
       // 2. 将数据添加到当前频道的文章列表中
       // ...数组，数组的展开操作符，它会把数组元素一个一个的拿出来，传递给使用的位置
-      const { results } = data.data
-      this.list.push(...results)
+      const { result } = data
+
+      console.log(result)
+      this.list.push(...result)
 
       // 3. 将 loading 设置为 false
       this.loading = false
-
+      this.finished = true
       // 4. 判断还有下一页数据，则更新获取下一个数据的时间戳
       //    如果没有了，则将 finished 设置为 true，不再加载更多了
-      if (results.length) {
-        // 更新获取下一页数据的时间戳
-        this.timestamp = data.data.pre_timestamp
-      } else {
-        this.finished = true
-      }
+      // if (results.length) {
+      //   // 更新获取下一页数据的时间戳
+      //   this.timestamp = data.data.pre_timestamp
+      // } else {
+      //   this.finished = true
+      // }
     },
 
     async onRefresh () {

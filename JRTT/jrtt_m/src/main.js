@@ -7,6 +7,8 @@ import Vant, { Lazyload } from 'vant'
 import 'vant/lib/index.css'
 import 'amfe-flexible'
 import './styles/index.less'
+import VueAxios from 'vue-axios'  //安装插件
+import axios from 'axios';
 
 if (process.env.NODE_ENV === 'production') {
   const Sentry = require('@sentry/browser')
@@ -17,7 +19,8 @@ if (process.env.NODE_ENV === 'production') {
     integrations: [new Integrations.Vue({ Vue, attachProps: true })]
   })
 }
-
+axios.defaults.baseURL = "/api"
+Vue.prototype.HOST = "/api"
 Vue.use(Vant)
 Vue.use(Lazyload)
 Vue.use(dateTime)

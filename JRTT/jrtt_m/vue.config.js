@@ -1,10 +1,8 @@
 module.exports = {
-  publicPath: '/',
   devServer: {
     proxy: {
       '/api': {
-        // target: 'http://api-toutiao-web.itheima.net',
-        target: 'http://ttapi.research.itcast.cn/',
+        target: 'http://localhost:8080/',
         changeOrigin: true,
         ws: true,
         pathRewrite: {

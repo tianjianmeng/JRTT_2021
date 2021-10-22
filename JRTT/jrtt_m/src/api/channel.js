@@ -9,14 +9,14 @@ import request from '@/utils/request'
 export function getAllChannels () {
   return request({
     method: 'GET',
-    url: '/app/v1_0/channels'
+    url: '/example/channel/channels'
   })
 }
 
 export const addChannel = channel => {
   return request({
     method: 'PATCH',
-    url: '/app/v1_0/user/channels',
+    url: '/example/channel/channels',
     data: {
       channels: [channel]
     }
@@ -26,6 +26,6 @@ export const addChannel = channel => {
 export const deleteChannel = channelId => {
   return request({
     method: 'DELETE',
-    url: `/app/v1_0/user/channels/${channelId}`
+    url: `/example/channel/channels/${channelId}`
   })
 }

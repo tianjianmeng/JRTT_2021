@@ -26,16 +26,18 @@ public class ChannelController {
     private ChannelMapper cm ;
 
     @GetMapping("/")
-    public R selectArticle() {
+    public R selectChannel() {
         return R.ok();
     }
+
     @GetMapping("/message")
-    public String ArticleMessage() {
+    public String ChannelMessage() {
         return "Success";
     }
+
     @GetMapping("/channels")
     public Object channels() {
-        Object o = cm.getChannelByStatus();
-        return o;
+        Object o = cm.getAllChannel();
+        return R.data("channels",o);
     }
 }
