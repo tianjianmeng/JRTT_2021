@@ -52,15 +52,9 @@ public class R {
         return this;
     }
 
-    public static R data(String key, Object value){
+    public R data(String key, Object value){
         R r = new R();
         r.data.put(key, value);
-        return r;
-    }
-
-    public static R data_(Map<String, Object> map){
-        R r = new R();
-        r.setData(map);
         return r;
     }
 

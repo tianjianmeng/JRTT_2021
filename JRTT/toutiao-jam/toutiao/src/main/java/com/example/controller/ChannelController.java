@@ -36,8 +36,8 @@ public class ChannelController {
     }
 
     @GetMapping("/channels")
-    public Object channels() {
+    public R channels() {
         Object o = cm.getAllChannel();
-        return R.data("channels",o);
+        return R.ok().data("channels",o);
     }
 }

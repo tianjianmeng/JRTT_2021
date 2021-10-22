@@ -33,24 +33,24 @@ public class ArticleController {
     public R selectArticle() {
         return R.ok();
     }
+
     @GetMapping("/message")
     public String ArticleMessage() {
         return "Success";
     }
+
     @GetMapping("/articles")
-    public Map Articles() {
+    public Map Articles() {   // How to use R's method to return the result?
         Object o = am.getAllArticles();
         Map map = new HashMap();
         map.put("result",o);
         return map;
     }
-//    R r = new R();
+
 //    @GetMapping("/articles")
-//    public R Articles() {
-//        Object o = am.getAllArticles();
-//
-//        r.data("result",o);
-//        return r;
+//    public R Articles() {   // How to use R's method to return the result?
+//        return R.ok().data("result",am.getAllArticles());
 //    }
+
 }
 
