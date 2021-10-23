@@ -19,7 +19,7 @@
 
 <script>
 import ArticleItem from '@/components/article-item'
-import { getArticle } from '@/api/article'
+import { getArticles } from '@/api/article'
 
 export default {
   name: '',
@@ -48,9 +48,7 @@ export default {
   methods: {
     async onLoad () {
       // 1. 请求获取数据
-      const { data } = await getArticle()
-
-
+      const { data } = await getArticles()
       // 2. 将数据添加到当前频道的文章列表中
       // ...数组，数组的展开操作符，它会把数组元素一个一个的拿出来，传递给使用的位置
       const { result } = data
@@ -60,12 +58,13 @@ export default {
 
       // 3. 将 loading 设置为 false
       this.loading = false
+      // 4. finishe之后就显示没有文字了，不finish就不停的刷数据库里的文章
       this.finished = true
     }
     ,
     async onRefresh () {
       // 1. 请求获取最新数据
-      const { data } = await getArticle()
+      const { data } = await getArticles()
 
       // 2. 把数据放到列表的顶部
       const { result } = data
