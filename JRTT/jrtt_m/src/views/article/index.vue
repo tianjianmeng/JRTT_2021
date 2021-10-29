@@ -19,6 +19,13 @@
       <div class="detail">
         <h3>{{ article.title }}</h3>
         <article-auth :article="article" />
+        <!-- 加载文章图片 -->
+        <van-image
+          class="cover"
+          fit="cover"
+          v-bind:src="article.autPhoto"
+          lazy-load
+        />
         <div
           class="markdown-body"
           v-html="article.content"
@@ -130,7 +137,10 @@ export default {
       this.loading = true
 
       try {
+
         const res = await getArticle(this.articleId)
+        console.log(res)
+
         this.article = res.data.data
 
         // 给文章内容中的图片添加点击预览

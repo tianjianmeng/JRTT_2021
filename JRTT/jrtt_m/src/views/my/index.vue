@@ -3,17 +3,12 @@
     <!-- 已登录：用户信息 -->
     <div class="user-info-wrap" v-if="$store.state.user">
       <div class="base-info-wrap">
-        <div class="avatar-title-wrap" @click="$router.push({
-          name: 'user',
-          params: {
-            userId: user.id
-          }
-        })">
+        <div class="avatar-title-wrap" >
           <van-image
             class="avatar"
             round
             fit="cover"
-            :src="user.photo"
+            v-bind:src="user.photo"
           />
           <div class="title">{{ user.name }}</div>
         </div>
@@ -87,7 +82,7 @@
 </template>
 
 <script>
-import { getSelf } from '@/api/user'
+import { getUserInfo } from '@/api/user'
 import globalBus from '@/utils/global-bus'
 
 export default {
@@ -98,6 +93,7 @@ export default {
     }
   },
   created () {
+
     if (this.$store.state.user) {
       this.loadUser()
     }
@@ -130,8 +126,9 @@ export default {
     },
 
     async loadUser () {
-      const res = await getSelf()
-      this.user = res.data.data
+      const res = await getUserInfo()
+      console.log(res.data.data.userInfo)
+      this.user = res.data.data.userInfo
     }
   }
 }

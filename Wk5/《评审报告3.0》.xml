@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.6" PIVersion="1.0.0.0" href="file:///D:\教学\软件项目实践\网站\公开\教学资源\文档模板\《评审报告》模板.xsn" name="urn:schemas-microsoft-com:office:infopath:-4QU--Qo:" language="zh-cn" productVersion="14.0.0" ?><?mso-application progid="InfoPath.Document"?><评审报告 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<首部 项目名称="今日头条" 项目标识="JRTT" version="1.0">
+		<状态与版本信息>
+			<文件状态>草稿</文件状态>
+			<文件标识>JRTT_HYPS</文件标识>
+			<当前版本>3.0</当前版本>
+			<作者>
+				<姓名>田见萌、卢炜</姓名>
+				<学号>2018011317-2018011314</学号>
+				<团队>见萌队</团队>
+			</作者>
+			<完成日期>2021-10-29</完成日期>
+			<版本更新信息><div xmlns="http://www.w3.org/1999/xhtml"><font face="仿宋_GB2312">1.版本更新说明</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font face="仿宋_GB2312">当前版本发布后，团队其他队员若对本文档有建议，可在原文档注明，要增加的内容用红色字写出，要删除的东西改成灰色，修改后把改好的文档命名为“XXX修改版”，发给我，团队成员评审后决定是否修改。</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font face="仿宋_GB2312">2. 版本更新记录：</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 576px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 192px"/>
+<col style="WIDTH: 192px"/>
+<col style="WIDTH: 192px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 6px">
+<td>
+<div align="center"><font size="2" face="仿宋_GB2312">版本号</font></div></td>
+<td>
+<div align="center"><font size="2" face="仿宋_GB2312">更新时间</font></div></td>
+<td>
+<div align="center"><font size="2" face="仿宋_GB2312">更新陈述</font></div></td></tr>
+<tr style="MIN-HEIGHT: 45px">
+<td>
+<div><font size="2"><font face="仿宋_GB2312"><u>V2</u>.0 </font></font></div></td>
+<td>
+<div><font size="2" face="仿宋_GB2312">2021.10.29</font></div></td>
+<td>
+<div><font face="仿宋_GB2312">概要设计文档和需求文档</font></div></td></tr></tbody></table></div></版本更新信息>
+		</状态与版本信息>
+	</首部>
+	<标题>第五周第三次评审</标题>
+	<组织名称>见萌队</组织名称>
+	<评审种类>
+		<定期评审>1</定期评审>
+	</评审种类>
+	<主持人>田见萌</主持人>
+	<参加人>全体成员</参加人>
+	<地点>教2-407</地点>
+	<日期>2021-10-29</日期>
+	<提交内容>进展报告</提交内容>
+	<评审项与结论>
+		<要素>项目进展报告/需求文档</要素>
+		<评审结果><div xmlns="http://www.w3.org/1999/xhtml">需求文档中的部分已得到全面改善、文档质量逐步提高、仅有部分需求得到更改和删除。</div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font face="SimSun">删除文章评论功能，登录接口只保留手机号登录。同时需要再优化性能分析（再修改对软件响应时间的限制）。</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml">概要设计文档中接口设计较为粗糙，需要更加深入。</div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></评审结果>
+		<问题和对策>未出现其他问题。</问题和对策>
+	</评审项与结论>
+	<总结>将需求设计文档中对开发提出异议的部分进行修改与删除，概要设计文档中的接口设计进行重写。</总结>
+	<签字>田见萌</签字>
+	<附件>
+		<其他材料></其他材料>
+		<评审记录>1.0-至今</评审记录>
+	</附件>
+</评审报告>

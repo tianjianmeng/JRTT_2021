@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.2" PIVersion="1.0.0.0" href="file:///D:\教学\软件项目实践\软件项目实践\文档模板\《项目进展报告》模板.xsn" name="urn:schemas-microsoft-com:office:infopath:-i-KEU--Qo:" language="zh-cn" productVersion="14.0.0" ?><?mso-application progid="InfoPath.Document"?><项目进展报告 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<首部 项目名称="今日头条" 项目标识="JRTT" version="1.0">
+		<状态与版本信息>
+			<文件状态>草稿</文件状态>
+			<文件标识>JRTT-XMJZ-v1.0</文件标识>
+			<当前版本>1.0</当前版本>
+			<作者>
+				<姓名>田见萌</姓名>
+				<学号>2018011317</学号>
+				<团队>见萌队</团队>
+			</作者>
+			<完成日期>2021-10-29</完成日期>
+			<版本更新信息><div xmlns="http://www.w3.org/1999/xhtml"><font face="仿宋_GB2312">1.版本更新说明</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font face="仿宋_GB2312">当前版本发布后，团队其他队员若对本文档有建议，可在原文档注明，要增加的内容用红色字写出，要删除的东西改成灰色，修改后把改好的文档命名为“XXX修改版”，发给我，团队成员评审后决定是否修改。</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font face="仿宋_GB2312">2. 版本更新记录：</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="msoUcTable" style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 576px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none" borderColor="buttontext" border="1">
+<colgroup>
+<col style="WIDTH: 192px"/>
+<col style="WIDTH: 192px"/>
+<col style="WIDTH: 192px"/></colgroup>
+<tbody vAlign="top">
+<tr style="MIN-HEIGHT: 6px">
+<td>
+<div align="center"><font size="2" face="仿宋_GB2312">版本号</font></div></td>
+<td>
+<div align="center"><font size="2" face="仿宋_GB2312">更新时间</font></div></td>
+<td>
+<div align="center"><font size="2" face="仿宋_GB2312">更新陈述</font></div></td></tr>
+<tr style="MIN-HEIGHT: 45px">
+<td>
+<div><font size="2"><font face="仿宋_GB2312"><u>V2</u>.0 </font></font></div></td>
+<td>
+<div><font size="2" face="仿宋_GB2312">2021.10.29</font></div></td>
+<td>
+<div><font face="仿宋_GB2312">概要设计文档和需求文档</font></div></td></tr></tbody></table></div></版本更新信息>
+		</状态与版本信息>
+		<引言>
+			<使用人员>开发人员：田见萌，张春雨，黄晴，吴佳泽，曾纪斌</使用人员>
+			<编写目的>该文档的编写目的是为了让开发人员明确当前的任务进度，明确任务的分配，让开发人员对当前项目的进度有一个具体的思考，能够对其进行进一步的开发，理清开发进度，开发思路。</编写目的>
+			<背景><div xmlns="http://www.w3.org/1999/xhtml">现在人们几乎都有手机，并且有越来越多的人开始关心社会，国家发生的事件，为了能够随时随地的知道国家社会发生的事件，所以设计一个能够安装在手机上的APP，能够时刻反映新闻，方便人民阅读，给人们带来便利。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">项目名称：今日头条</div>
+<div xmlns="http://www.w3.org/1999/xhtml">项目提出者：田见萌</div>
+<div xmlns="http://www.w3.org/1999/xhtml">开发者：吴佳泽，黄晴，张春雨，曾纪斌</div>
+<div xmlns="http://www.w3.org/1999/xhtml">配置要求：mysql数据库，Idea等。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">该软件需与数据库连接使用才能运行。</div></背景>
+			<定义与缩写>
+				<术语>JRTT-XMJZ-v1.0</术语>
+				<解释>今日头条的项目进展报告，版本1.0</解释>
+			</定义与缩写>
+			<参考资料>
+				<条目>《<em xmlns="http://www.w3.org/1999/xhtml">软件项目管理</em>(原书第5版）》</条目>
+			</参考资料>
+		</引言>
+	</首部>
+	<编号>001</编号>
+	<项目阶段>开发阶段</项目阶段>
+	<项目经理>田见萌</项目经理>
+	<日期>2021-10-29</日期>
+	<项目进展情况>
+		<任务与进度>
+			<计划>在10月29日之前进行今日头条APP的前端代码编写，实现文章浏览，文章点赞，文章收藏以及文章搜索功能，还包括用户的登录功能以及用户个人中心功能；编写出对应的数据库，添加多个测试用例，使前端能够正常显示出文章内容以及缩略图等信息；后端编写出各种功能的接口，实现接口等。</计划>
+			<实际情况>在10月29号当天，该项目的前端代码编写功能完成了文章的浏览，但还未能完成文章的收藏及其点赞功能，文章的搜索功能仅完成了记录历史搜索的功能，其具体的搜索方法还未完成；数据库已经完成，添加了多个文章和图片等信息；用户的登录功能进行了分工合作，我方开发人员对其的登录功能进行了3层次划分，目前仅等待整合。后端的接口等信息也已经编写完成，现在正在对其进行优化。</实际情况>
+		</任务与进度>
+		<费用>
+			<计划>该项目由于仅为内部开发使用，故计划费用仅为需要租用服务器的价格（100元以内）</计划>
+			<实际情况>目前还未真正租用服务器，实际消费为0元。</实际情况>
+		</费用>
+		<人力资源>
+			<计划><div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">黄晴和曾纪斌负责前端开发；</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">吴佳泽和张春雨负责后端开发；</div></计划>
+			<实际情况><div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">吴佳泽和黄晴负责前端开发；</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">田见萌和张春雨负责后端开发；</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">曾纪斌负责数据库的设计与开发。</div></实际情况>
+		</人力资源>
+		<软硬件资源>
+			<计划><div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">软件：</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">通过HBuilder X编写前端代码。</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">通过IntelliJ IDEA编写后端代码。</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">数据库使用MySQL.</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">硬件：</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">个人电脑。</div></计划>
+			<实际情况>按计划进行。</实际情况>
+		</软硬件资源>
+		<其他>无</其他>
+	</项目进展情况>
+	<问题与对策><font xmlns="http://www.w3.org/1999/xhtml" face="SimSun">目前各个文章并没有独立的图片，开发组需要开发出加载图片的功能，测试组进行测试。同时开发组需要让APP拥有持续更新的能力，开发出管理页面，测试组使用管理页面进行内容更新。</font></问题与对策>
+	<签字></签字>
+</项目进展报告>

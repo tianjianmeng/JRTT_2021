@@ -6,14 +6,30 @@ import request from '@/utils/request'
 /**
  * 用户登录
  */
-export function login (data) {
-  return request({
-    method: 'POST',
-    url: '/user/login',
-    data
-  })
+// export function login (data) {
+//   return request({
+//     method: 'POST',
+//     url: '/user/login',
+//     data
+//   })
+// }
+export function login(data) {
+    return request({
+        method: 'POST',
+        url: '/example/user/login',
+        data
+    })
 }
-
+/**
+ *
+ * 获取用户个人信息（头像
+ */
+export function getUserInfo() {
+    return request({
+        method: 'GET',
+        url: '/example/user/UserInfo'
+    })
+}
 /**
  * 获取用户频道列表
  * 如果登录了：获取用户频道列表
@@ -49,15 +65,7 @@ export function unFollowUser (userId) {
   })
 }
 
-/**
- * 获取当前登录用户自己信息
- */
-export function getSelf () {
-  return request({
-    method: 'GET',
-    url: '/app/v1_0/user'
-  })
-}
+
 
 /**
  * 获取用户个人资料

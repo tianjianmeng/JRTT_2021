@@ -18,4 +18,7 @@ import java.util.List;
 public interface ArticleMapper extends BaseMapper<Article> {
     @Select("select * from article")
     List<Article> getAllArticles();
+
+    @Select("select * from article where art_id = ${_parameter}")
+    public Article getArticleById(int id);
 }

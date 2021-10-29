@@ -23,21 +23,22 @@ request.defaults.transformResponse = [function (data) {
   }
 }]
 
-// //请求拦截器
-// request.interceptors.request.use(
-//   function (config) {
-//     const user = store.state.user
-//     // if (user) {
-//     //   config.headers.Authorization = `Bearer ${user.token}`
-//     // }
-//     // Do something before request is sent
-//     return config
-//   },
-//   function (error) {
-//     // Do something with request error
-//     return Promise.reject(error)
-//   }
-// )
+//请求拦截器
+request.interceptors.request.use(
+  function (config) {
+    const user = store.state.user
+    // console.log(user)
+    if (user) {
+      config.headers.token = `${user}`
+    }
+    // Do something before request is sent
+    return config
+  },
+  function (error) {
+    // Do something with request error
+    return Promise.reject(error)
+  }
+)
 
 // // 响应拦截器
 // request.interceptors.response.use(

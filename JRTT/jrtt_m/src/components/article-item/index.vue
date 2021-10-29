@@ -7,14 +7,14 @@
       <div class="title-label">
         <div class="title van-multi-ellipsis--l3">{{ article.title }}</div>
         <div class="label">
-          <span>{{ article.aut_name }}</span>
+          <span>{{ article.autName }}</span>
           <span>{{ article.pubdate }}</span>
         </div>
       </div>
       <van-image
         class="cover"
         fit="cover"
-        src="https://img.yzcdn.cn/vant/cat.jpeg"
+        v-bind:src="article.autPhoto"
         lazy-load
       />
     </div>
@@ -42,7 +42,7 @@ export default {
       this.$router.push({
         name: 'article',
         params: {
-          articleId: this.article.art_id.toString()
+          articleId: this.article.artId
         }
       })
     }

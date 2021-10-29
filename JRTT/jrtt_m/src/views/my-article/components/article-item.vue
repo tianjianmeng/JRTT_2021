@@ -4,7 +4,7 @@
     @click="$router.push({
       name: 'article',
       params: {
-        articleId: article.art_id.toString()
+        articleId: article.artId.toString()
       }
     })"
   >
@@ -13,11 +13,11 @@
         class="avatar"
         round
         fit="cover"
-        src="https://img.yzcdn.cn/vant/cat.jpeg"
+        v-bind:src="article.autPhoto"
       />
       <div>
-        <div class="name">{{ article.aut_name }}</div>
-        <div class="date">{{ article.pubdate | relativeTime }}</div>
+        <div class="name">{{ article.autName }}</div>
+        <div class="date">{{ article.pubdate }}</div>
       </div>
     </div>
     <div class="title-cover" v-if="article.cover.type">

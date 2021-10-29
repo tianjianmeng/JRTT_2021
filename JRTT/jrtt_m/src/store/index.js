@@ -15,11 +15,12 @@ export default new Vuex.Store({
   mutations: {
     setUser (state, data) {
       // 解析 JWT 中的数据（需要使用用户ID）
-      if (data && data.token) {
-        const user = decodeJwt(data.token)
-        data.user_id = user.user_id
-      }
+      if (data) {
+        const user = decodeJwt(data)
 
+        // data.user_id = user.user_id
+      }
+      // console.log(data)
       state.user = data
 
       // 为了防止刷新丢失 state 中的 user 状态，我们把它放到本地存储

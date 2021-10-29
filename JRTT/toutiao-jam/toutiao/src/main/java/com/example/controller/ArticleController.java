@@ -7,6 +7,7 @@ import com.example.mapper.ChannelMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import org.springframework.web.bind.annotation.RestController;
@@ -47,10 +48,13 @@ public class ArticleController {
         return map;
     }
 
-//    @GetMapping("/articles")
-//    public R Articles() {   // How to use R's method to return the result?
-//        return R.ok().data("result",am.getAllArticles());
-//    }
+    @GetMapping("/{articleId}")
+    public Map getArticleById(@PathVariable int articleId) {
+        Object o = am.getArticleById(articleId);
+        Map map = new HashMap();
+        map.put("data",o);
+        return map;
+    }
 
 }
 

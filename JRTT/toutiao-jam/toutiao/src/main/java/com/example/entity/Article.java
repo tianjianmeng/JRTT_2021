@@ -37,6 +37,7 @@ public class Article implements Serializable {
     private String autPhoto;
 
     private String pubdate;
-
+    
+    private String content;
 
 }
