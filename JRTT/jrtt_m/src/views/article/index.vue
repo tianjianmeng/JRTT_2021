@@ -20,17 +20,19 @@
         <h3>{{ article.title }}</h3>
         <article-auth :article="article" />
         <!-- 加载文章图片 -->
+
+        <div
+          class="markdown-body"
+          v-html="article.content"
+          ref="article-content"
+        ></div>
         <van-image
           class="cover"
           fit="cover"
           v-bind:src="article.autPhoto"
           lazy-load
         />
-        <div
-          class="markdown-body"
-          v-html="article.content"
-          ref="article-content"
-        ></div>
+
         <van-divider>正文结束</van-divider>
       </div>
 
@@ -137,7 +139,6 @@ export default {
       this.loading = true
 
       try {
-
         const res = await getArticle(this.articleId)
         console.log(res)
 

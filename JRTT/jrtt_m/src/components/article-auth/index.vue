@@ -11,18 +11,18 @@
         width="1rem"
         height="1rem"
         fit="cover"
-        :src="article.aut_photo"
+        :src="article.autPhoto"
       />
       <div class="text">
-        <p class="name">{{ article.aut_name }}</p>
-        <p class="time">{{ article.pubdate | relativeTime }}</p>
+        <p class="name">{{ article.autName }}</p>
+        <p class="time">{{ article.pubdate }}</p>
       </div>
     </div>
     <!-- 如果没登录或者当前文章作者不是当前登录用户 -->
     <follow-user
-      v-if="!user || article.aut_id !== user.user_id"
+      v-if="!user || article.autId !== user.id"
       v-model="article.is_followed"
-      :user-id="article.aut_id"
+      :user-id="article.autId"
       round
       style="width: 30%"
     />
