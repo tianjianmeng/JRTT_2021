@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.3" PIVersion="1.0.0.0" href="file:///D:\教学\软件项目实践\软件项目实践\文档模板\《测试案例》模板.xsn" name="urn:schemas-microsoft-com:office:infopath:--E8--Qo:" language="zh-cn" productVersion="15.0.0" ?><?mso-application progid="InfoPath.Document"?><测试用例 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<首部 项目名称="今日头条" 项目标识="JRTT-CSYL" version="1.0">
+		<状态与版本信息>
+			<文件状态>正式发布</文件状态>
+			<文件标识>JRTT-CSYL</文件标识>
+			<当前版本>1.0</当前版本>
+			<作者>
+				<姓名>郑培森</姓名>
+				<学号>2018011327</学号>
+				<团队>见萌队</团队>
+			</作者>
+			<完成日期>2021-11-05</完成日期>
+			<版本更新信息>无</版本更新信息>
+		</状态与版本信息>
+		<引言>
+			<使用人员>开发人员及测试组人员</使用人员>
+			<编写目的>记录测试过程以及测试用例。</编写目的>
+			<背景>开发基本完成</背景>
+			<定义与缩写>
+				<术语>JRTT-CSYL</术语>
+				<解释>测试用例文档</解释>
+			</定义与缩写>
+			<参考资料>
+				<条目>《软件测试技术》</条目>
+			</参考资料>
+		</引言>
+	</首部>
+	<项目>
+		<测试项目名称>今日头条</测试项目名称>
+		<测试人员>郑培森 崔敏双 李静雯</测试人员>
+		<测试时间>2021-11-05</测试时间>
+		<测试内容>登录模块的功能测试，搜索模块的测试，用户中心模块，主页新闻模块，详细新闻内容模块。以及手机号输入是否符合格式。</测试内容>
+		<测试环境与系统配置>vscode</测试环境与系统配置>
+		<测试输入数据><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">
+<div><font size="2" face="宋体">1.填写符合要求的数据： 用户名字和密码都为最大长度（边界值分析，取上点）</font></div></font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">
+<div>
+<table tabIndex="-1" class="msoUcTable" style="BORDER-TOP-STYLE: none; WORD-WRAP: break-word; BORDER-LEFT-STYLE: none; WIDTH: 710px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none" borderColor="#000000" border="1">
+<colgroup>
+<col style="WIDTH: 355px"/>
+<col style="WIDTH: 355px"/></colgroup>
+<tbody>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">账号：</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">密码（验证码）：</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">1303769812303</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">29839497</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">1510840734678</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">41017379</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">1561572052689</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">45581424</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">1765349433546</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">46482664</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">1349716751900</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">32571949</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">1853015941207</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">59186544</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">1315895704856</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">4714331</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">1700195316672</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">4014115</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">156036347223</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">7864444</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">1695973284313</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">2961092</font></div></font></td></tr></tbody></table></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">
+<div><font size="2" face="宋体"><br/>2.填写符合要求的数据 ：用户名字和密码都为最小长度（边界值分析，取上点）</font></div></font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">
+<div>
+<table tabIndex="-1" class="msoUcTable" style="BORDER-TOP-STYLE: none; WORD-WRAP: break-word; BORDER-LEFT-STYLE: none; WIDTH: 710px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none" borderColor="#000000" border="1">
+<colgroup>
+<col style="WIDTH: 355px"/>
+<col style="WIDTH: 355px"/></colgroup>
+<tbody>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">账号：</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">密码（验证码）：</font></div></font></td></tr>
+<tr style="MIN-HEIGHT: 14.65pt">
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">1339200570</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">95781</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">1540663243</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">32842</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">1781869587</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">38731</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">180687298</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">4738</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">1328453116</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">52640</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">1388652022</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">26613</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">158383147</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">90810</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">1848268163</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">36103</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">171847843</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">24267</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">1818216450</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">6710</font></div></font></td></tr></tbody></table></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">3.填写符合要求的数据：用户名字和密码都是非最大和最小长度的数据（边界值分析，取内点）</font></div></font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">
+<div>
+<table tabIndex="-1" class="msoUcTable" style="BORDER-TOP-STYLE: none; WORD-WRAP: break-word; BORDER-LEFT-STYLE: none; WIDTH: 710px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none" borderColor="#000000" border="1">
+<colgroup>
+<col style="WIDTH: 355px"/>
+<col style="WIDTH: 355px"/></colgroup>
+<tbody>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">账号：</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">密码（验证码）：</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">13875944471</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">771248</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">13037112142</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">254505</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">18692341170</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">920439</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">17388226435</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">925024</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">18275989574</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">570060</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">13815595044</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">967358</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">15778713574</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">326604</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">17844528556</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">201114</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">18771584502</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">401445</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">13399444524</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">623688</font></div></font></td></tr></tbody></table></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体"><br/>4.必填项分别为空<br/></font></div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体"><br/>5.用户名是不符合要求的字符</font></div></font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">
+<div>
+<table tabIndex="-1" class="msoUcTable" style="BORDER-TOP-STYLE: none; WORD-WRAP: break-word; BORDER-LEFT-STYLE: none; WIDTH: 710px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none" borderColor="#000000" border="1">
+<colgroup>
+<col style="WIDTH: 355px"/>
+<col style="WIDTH: 355px"/></colgroup>
+<tbody>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">账号：</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">密码（验证码）：</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">1387a944471</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">871248</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">13037112142</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">154505</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">15692341wr0</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">620439</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">15%88226435</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">625024</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">1727 989 74</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">870060</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">1891#5595044</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">367358</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">154787135-4</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">626604</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">1384452(556</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">701114</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">13w71584502</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">801445</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">1739+444524</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">123688</font></div></font></td></tr></tbody></table></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">6.密码是不符合要求的字符</font></div></font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">
+<div>
+<table tabIndex="-1" class="msoUcTable" style="BORDER-TOP-STYLE: none; WORD-WRAP: break-word; BORDER-LEFT-STYLE: none; WIDTH: 710px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none" borderColor="#000000" border="1">
+<colgroup>
+<col style="WIDTH: 355px"/>
+<col style="WIDTH: 355px"/></colgroup>
+<tbody>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">账号：</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">密码（验证码）：</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">13875944471</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">68 248</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">18037112142</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">d68505</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">15692341170</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">920*39</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">17388226435</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">9+*5035</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">13275989574</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">52w060</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">18815595044</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">9/7358</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">13778713574</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">3266#4</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">15584528556</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">2df114</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">17781584502</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">40ol45</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">18999444524</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">6^3688</font></div></font></td></tr></tbody></table></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">7.第一位非1</font></div></font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">
+<div>
+<table tabIndex="-1" class="msoUcTable" style="BORDER-TOP-STYLE: none; WORD-WRAP: break-word; BORDER-LEFT-STYLE: none; WIDTH: 710px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none" borderColor="#000000" border="1">
+<colgroup>
+<col style="WIDTH: 355px"/>
+<col style="WIDTH: 355px"/></colgroup>
+<tbody>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">账号：</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">密码（验证码）：</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">73875944471</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">241248</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">58037112142</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">254505</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">65692341170</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">920529</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">87388226435</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">536024</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">33275989574</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">930060</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">28815595044</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">177358</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">93778713574</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">426604</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">75584528556</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">351114</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">07781584502</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">861445</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">08999444524</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">863688</font></div></font></td></tr></tbody></table></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">8.第二位非3/5/7/8</font></div></font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">
+<div>
+<table tabIndex="-1" class="msoUcTable" style="BORDER-TOP-STYLE: none; WORD-WRAP: break-word; BORDER-LEFT-STYLE: none; WIDTH: 710px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none" borderColor="#000000" border="1">
+<colgroup>
+<col style="WIDTH: 355px"/>
+<col style="WIDTH: 355px"/></colgroup>
+<tbody>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">账号：</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">密码（验证码）：</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">15875944471</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">771248</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">16037112142</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">254505</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">12692341170</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">114514</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">19888226435</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">925024</font></div></font></td></tr>
+<tr style="MIN-HEIGHT: 14.5pt">
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">11275989574</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">570060</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">10815595044</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">967358</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">16778713574</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">326604</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">19844528556</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">201114</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">10771584502</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">401445</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">12399444524</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">623688</font></div></font></td></tr></tbody></table></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">
+<div><font size="2" face="宋体"></font> </div></font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div></测试输入数据>
+		<测试次数>70</测试次数>
+		<预期结果><div xmlns="http://www.w3.org/1999/xhtml">若超出最大长度，不允许继续输入。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">若少于11个字符，则提示输入少于11个数字。</div>
+<div xmlns="http://www.w3.org/1999/xhtml">若输入格式错误包括有非法字符，则提示输入格式错误。</div></预期结果>
+		<测试过程>运行程序，点击相应的功能模块，看页面跳转是否成功。以及非法输入是否有提示。</测试过程>
+		<测试结果>符合预期结果</测试结果>
+		<测试结论>程序基本按照需求文档说明实现。</测试结论>
+		<实现限制>在尽可能少的测试用例条件下，尽可能覆盖更多的情况。</实现限制>
+		<备注></备注>
+	</项目>
+</测试用例>
