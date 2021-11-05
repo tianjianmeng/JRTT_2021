@@ -21,19 +21,19 @@
       <van-grid class="data-info" :border="false">
         <van-grid-item>
           <span class="count">{{ user.art_count }}</span>
-          <span class="text">头条</span>
+          <span class="text">头条 0</span>
         </van-grid-item>
         <van-grid-item :to="`/user/${user.id}/follow`">
           <span class="count">{{ user.follow_count }}</span>
-          <span class="text">关注</span>
+          <span class="text">关注 0</span>
         </van-grid-item>
         <van-grid-item :to="`/user/${user.id}/follow?tab=followers`">
           <span class="count">{{ user.fans_count }}</span>
-          <span class="text">粉丝</span>
+          <span class="text">粉丝 0</span>
         </van-grid-item>
         <van-grid-item>
           <span class="count">{{ user.like_count }}</span>
-          <span class="text">获赞</span>
+          <span class="text">获赞 0</span>
         </van-grid-item>
       </van-grid>
     </div>
@@ -63,11 +63,6 @@
         <van-icon slot="icon" name="browsing-history-o" color="#ffa023" />
       </van-grid-item>
     </van-grid>
-
-    <van-cell-group :border="false">
-      <!-- <van-cell title="消息通知" is-link /> -->
-      <van-cell title="小智同学" is-link @click="$router.push('/user/chat')" />
-    </van-cell-group>
 
     <van-cell-group v-if="$store.state.user">
       <van-cell

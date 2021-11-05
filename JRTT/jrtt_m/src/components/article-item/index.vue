@@ -1,6 +1,5 @@
 <template>
   <div
-      v-else
       class="article-item article-item-1"
       @click="onItemClick"
     >

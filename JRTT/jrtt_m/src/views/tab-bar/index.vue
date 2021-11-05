@@ -38,14 +38,18 @@ export default {
   props: {},
   data () {
     return {
-      active: 0
+      active: 0,
     }
   },
   computed: {},
   watch: {
   },
-  created () {},
-  methods: {}
+  created () {
+
+  },
+  methods: {
+    
+  }
 }
 </script>
 

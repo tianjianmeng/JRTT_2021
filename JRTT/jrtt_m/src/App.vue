@@ -8,7 +8,7 @@
       如果不需要某些组件缓存，可以指定 include 或者 exclude 来包含或者排除
      -->
     <keep-alive :include="$store.state.cachedPages">
-      <router-view />
+      <router-view/>
     </keep-alive>
   </div>
 </template>
@@ -16,6 +16,10 @@
 <script>
 export default {
   name: 'App',
+  provide(){
+    return{
+    }
+  },
   components: {},
   props: {},
   data () {
@@ -26,7 +30,8 @@ export default {
   watch: {
   },
   created () {},
-  methods: {}
+  methods: {
+  }
 }
 </script>
 

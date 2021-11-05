@@ -47,12 +47,6 @@ const routes = [
     name: 'user-avatar',
     component: () => import('@/views/user-avatar')
   },
-  { // 小智同学
-    name: 'user-chat',
-    path: '/user/chat',
-    component: () => import('@/views/user-chat'),
-    meta: { requiresAuth: true }
-  },
   { // 用户关注/粉丝
     path: '/user/:userId/follow',
     component: () => import('@/views/user-follow'),
